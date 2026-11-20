@@ -1,0 +1,1001 @@
+scenario_id,station_id,station_name,distance_km,travel_time_minutes,traffic_level,vehicles_in_queue,arrival_rate_per_minute,service_rate_per_minute,estimated_waiting_time_minutes,crowd_level,data_source,is_simulated
+1,1,Green Fuel CNG Station,1.2,4.0,LOW,4,0.5,0.6,6.67,LOW,synthetic,True
+2,2,City Gas Point,2.4,9.0,MODERATE,7,0.65,0.75,9.33,MODERATE,synthetic,True
+3,3,Highway CNG Station,3.1,11.0,MODERATE,11,0.95,1.1,10.0,MODERATE,synthetic,True
+4,4,EcoFill CNG Hub,4.5,21.0,HEAVY,8,0.62,0.7,11.43,MODERATE,synthetic,True
+5,1,Green Fuel CNG Station,1.2,4.33,LOW,5,0.41,0.56,8.93,LOW,synthetic,True
+6,1,Green Fuel CNG Station,1.2,4.13,LOW,12,0.41,0.56,21.43,MODERATE,synthetic,True
+7,1,Green Fuel CNG Station,1.2,4.76,LOW,17,0.34,0.55,30.91,HIGH,synthetic,True
+8,1,Green Fuel CNG Station,1.2,5.82,MODERATE,1,0.54,0.62,1.61,LOW,synthetic,True
+9,1,Green Fuel CNG Station,1.2,5.01,MODERATE,6,0.5,0.61,9.84,MODERATE,synthetic,True
+10,1,Green Fuel CNG Station,1.2,5.32,MODERATE,14,0.53,0.64,21.88,HIGH,synthetic,True
+11,1,Green Fuel CNG Station,1.2,8.77,HEAVY,3,0.52,0.56,5.36,LOW,synthetic,True
+12,1,Green Fuel CNG Station,1.2,8.3,HEAVY,12,0.5,0.58,20.69,MODERATE,synthetic,True
+13,1,Green Fuel CNG Station,1.2,8.43,HEAVY,17,0.51,0.56,30.36,HIGH,synthetic,True
+14,2,City Gas Point,2.4,8.19,LOW,3,0.56,0.77,3.9,LOW,synthetic,True
+15,2,City Gas Point,2.4,7.77,LOW,9,0.62,0.82,10.98,MODERATE,synthetic,True
+16,2,City Gas Point,2.4,7.73,LOW,17,0.52,0.78,21.79,HIGH,synthetic,True
+17,2,City Gas Point,2.4,9.11,MODERATE,5,0.65,0.73,6.85,LOW,synthetic,True
+18,2,City Gas Point,2.4,9.69,MODERATE,12,0.62,0.72,16.67,MODERATE,synthetic,True
+19,2,City Gas Point,2.4,9.33,MODERATE,17,0.7,0.82,20.73,HIGH,synthetic,True
+20,2,City Gas Point,2.4,14.73,HEAVY,3,0.8,0.8,3.75,LOW,synthetic,True
+21,2,City Gas Point,2.4,14.81,HEAVY,9,0.65,0.75,12.0,MODERATE,synthetic,True
+22,2,City Gas Point,2.4,14.19,HEAVY,17,0.69,0.73,23.29,HIGH,synthetic,True
+23,3,Highway CNG Station,3.1,9.19,LOW,3,0.73,0.99,3.03,LOW,synthetic,True
+24,3,Highway CNG Station,3.1,9.13,LOW,12,0.76,1.08,11.11,MODERATE,synthetic,True
+25,3,Highway CNG Station,3.1,10.09,LOW,14,0.68,1.1,12.73,HIGH,synthetic,True
+26,3,Highway CNG Station,3.1,11.89,MODERATE,1,1.0,1.14,0.88,LOW,synthetic,True
+27,3,Highway CNG Station,3.1,11.38,MODERATE,9,0.95,1.06,8.49,MODERATE,synthetic,True
+28,3,Highway CNG Station,3.1,11.17,MODERATE,20,0.95,1.21,16.53,HIGH,synthetic,True
+29,3,Highway CNG Station,3.1,16.67,HEAVY,5,1.18,1.18,4.24,LOW,synthetic,True
+30,3,Highway CNG Station,3.1,17.81,HEAVY,9,0.85,1.0,9.0,MODERATE,synthetic,True
+31,3,Highway CNG Station,3.1,17.87,HEAVY,17,1.24,1.24,13.71,HIGH,synthetic,True
+32,4,EcoFill CNG Hub,4.5,11.5,LOW,5,0.49,0.69,7.25,LOW,synthetic,True
+33,4,EcoFill CNG Hub,4.5,12.58,LOW,9,0.52,0.75,12.0,MODERATE,synthetic,True
+34,4,EcoFill CNG Hub,4.5,12.52,LOW,20,0.42,0.69,28.99,HIGH,synthetic,True
+35,4,EcoFill CNG Hub,4.5,15.42,MODERATE,3,0.55,0.68,4.41,LOW,synthetic,True
+36,4,EcoFill CNG Hub,4.5,14.8,MODERATE,6,0.66,0.75,8.0,MODERATE,synthetic,True
+37,4,EcoFill CNG Hub,4.5,14.25,MODERATE,14,0.56,0.67,20.9,HIGH,synthetic,True
+38,4,EcoFill CNG Hub,4.5,22.39,HEAVY,5,0.71,0.76,6.58,LOW,synthetic,True
+39,4,EcoFill CNG Hub,4.5,22.49,HEAVY,12,0.73,0.74,16.22,MODERATE,synthetic,True
+40,4,EcoFill CNG Hub,4.5,21.18,HEAVY,20,0.72,0.7,28.57,HIGH,synthetic,True
+41,1,Green Fuel CNG Station,1.2,4.35,LOW,1,0.34,0.56,1.79,LOW,synthetic,True
+42,1,Green Fuel CNG Station,1.2,4.34,LOW,6,0.4,0.55,10.91,MODERATE,synthetic,True
+43,1,Green Fuel CNG Station,1.2,4.42,LOW,14,0.4,0.66,21.21,HIGH,synthetic,True
+44,1,Green Fuel CNG Station,1.2,5.86,MODERATE,3,0.46,0.58,5.17,LOW,synthetic,True
+45,1,Green Fuel CNG Station,1.2,5.14,MODERATE,6,0.57,0.65,9.23,MODERATE,synthetic,True
+46,1,Green Fuel CNG Station,1.2,6.3,MODERATE,20,0.51,0.61,32.79,HIGH,synthetic,True
+47,1,Green Fuel CNG Station,1.2,7.59,HEAVY,1,0.67,0.64,1.56,LOW,synthetic,True
+48,1,Green Fuel CNG Station,1.2,7.79,HEAVY,12,0.6,0.59,20.34,MODERATE,synthetic,True
+49,1,Green Fuel CNG Station,1.2,8.19,HEAVY,20,0.57,0.61,32.79,HIGH,synthetic,True
+50,2,City Gas Point,2.4,7.35,LOW,1,0.57,0.75,1.33,LOW,synthetic,True
+51,2,City Gas Point,2.4,8.59,LOW,12,0.62,0.82,14.63,MODERATE,synthetic,True
+52,2,City Gas Point,2.4,8.5,LOW,14,0.49,0.72,19.44,HIGH,synthetic,True
+53,2,City Gas Point,2.4,9.4,MODERATE,1,0.56,0.72,1.39,LOW,synthetic,True
+54,2,City Gas Point,2.4,10.49,MODERATE,9,0.63,0.73,12.33,MODERATE,synthetic,True
+55,2,City Gas Point,2.4,9.45,MODERATE,20,0.65,0.78,25.64,HIGH,synthetic,True
+56,2,City Gas Point,2.4,13.97,HEAVY,1,0.74,0.77,1.3,LOW,synthetic,True
+57,2,City Gas Point,2.4,14.3,HEAVY,6,0.73,0.77,7.79,MODERATE,synthetic,True
+58,2,City Gas Point,2.4,13.6,HEAVY,14,0.71,0.82,17.07,HIGH,synthetic,True
+59,3,Highway CNG Station,3.1,10.21,LOW,1,0.74,1.15,0.87,LOW,synthetic,True
+60,3,Highway CNG Station,3.1,8.92,LOW,12,0.72,1.02,11.76,MODERATE,synthetic,True
+61,3,Highway CNG Station,3.1,9.11,LOW,20,0.78,1.13,17.7,HIGH,synthetic,True
+62,3,Highway CNG Station,3.1,12.01,MODERATE,5,0.84,1.04,4.81,LOW,synthetic,True
+63,3,Highway CNG Station,3.1,11.01,MODERATE,9,0.97,1.09,8.26,MODERATE,synthetic,True
+64,3,Highway CNG Station,3.1,11.81,MODERATE,20,1.12,1.25,16.0,HIGH,synthetic,True
+65,3,Highway CNG Station,3.1,17.82,HEAVY,5,1.07,1.03,4.85,LOW,synthetic,True
+66,3,Highway CNG Station,3.1,17.56,HEAVY,9,0.98,1.04,8.65,MODERATE,synthetic,True
+67,3,Highway CNG Station,3.1,16.51,HEAVY,20,1.26,1.25,16.0,HIGH,synthetic,True
+68,4,EcoFill CNG Hub,4.5,11.6,LOW,5,0.5,0.69,7.25,LOW,synthetic,True
+69,4,EcoFill CNG Hub,4.5,12.11,LOW,6,0.47,0.75,8.0,MODERATE,synthetic,True
+70,4,EcoFill CNG Hub,4.5,11.96,LOW,20,0.5,0.69,28.99,HIGH,synthetic,True
+71,4,EcoFill CNG Hub,4.5,14.95,MODERATE,3,0.68,0.77,3.9,LOW,synthetic,True
+72,4,EcoFill CNG Hub,4.5,14.96,MODERATE,9,0.54,0.66,13.64,MODERATE,synthetic,True
+73,4,EcoFill CNG Hub,4.5,14.64,MODERATE,17,0.56,0.67,25.37,HIGH,synthetic,True
+74,4,EcoFill CNG Hub,4.5,22.36,HEAVY,1,0.69,0.66,1.52,LOW,synthetic,True
+75,4,EcoFill CNG Hub,4.5,21.22,HEAVY,12,0.6,0.65,18.46,MODERATE,synthetic,True
+76,4,EcoFill CNG Hub,4.5,22.46,HEAVY,14,0.61,0.66,21.21,HIGH,synthetic,True
+77,1,Green Fuel CNG Station,1.2,5.0,LOW,1,0.43,0.67,1.49,LOW,synthetic,True
+78,1,Green Fuel CNG Station,1.2,5.46,LOW,9,0.49,0.65,13.85,MODERATE,synthetic,True
+79,1,Green Fuel CNG Station,1.2,5.46,LOW,20,0.44,0.57,35.09,HIGH,synthetic,True
+80,1,Green Fuel CNG Station,1.2,6.39,MODERATE,1,0.52,0.66,1.52,LOW,synthetic,True
+81,1,Green Fuel CNG Station,1.2,5.37,MODERATE,9,0.57,0.65,13.85,MODERATE,synthetic,True
+82,1,Green Fuel CNG Station,1.2,5.06,MODERATE,14,0.52,0.65,21.54,HIGH,synthetic,True
+83,1,Green Fuel CNG Station,1.2,8.02,HEAVY,3,0.59,0.58,5.17,LOW,synthetic,True
+84,1,Green Fuel CNG Station,1.2,7.99,HEAVY,6,0.57,0.58,10.34,MODERATE,synthetic,True
+85,1,Green Fuel CNG Station,1.2,8.26,HEAVY,14,0.62,0.68,20.59,HIGH,synthetic,True
+86,2,City Gas Point,2.4,7.37,LOW,5,0.57,0.82,6.1,LOW,synthetic,True
+87,2,City Gas Point,2.4,7.26,LOW,9,0.56,0.72,12.5,MODERATE,synthetic,True
+88,2,City Gas Point,2.4,7.85,LOW,20,0.55,0.75,26.67,HIGH,synthetic,True
+89,2,City Gas Point,2.4,9.38,MODERATE,5,0.63,0.71,7.04,LOW,synthetic,True
+90,2,City Gas Point,2.4,9.81,MODERATE,12,0.63,0.75,16.0,MODERATE,synthetic,True
+91,2,City Gas Point,2.4,9.55,MODERATE,20,0.7,0.81,24.69,HIGH,synthetic,True
+92,2,City Gas Point,2.4,13.97,HEAVY,1,0.84,0.81,1.23,LOW,synthetic,True
+93,2,City Gas Point,2.4,14.5,HEAVY,6,0.72,0.79,7.59,MODERATE,synthetic,True
+94,2,City Gas Point,2.4,13.79,HEAVY,17,0.68,0.75,22.67,HIGH,synthetic,True
+95,3,Highway CNG Station,3.1,9.72,LOW,5,0.89,1.23,4.07,LOW,synthetic,True
+96,3,Highway CNG Station,3.1,9.23,LOW,9,0.8,1.07,8.41,MODERATE,synthetic,True
+97,3,Highway CNG Station,3.1,9.5,LOW,17,0.84,1.19,14.29,HIGH,synthetic,True
+98,3,Highway CNG Station,3.1,12.35,MODERATE,3,0.97,1.15,2.61,LOW,synthetic,True
+99,3,Highway CNG Station,3.1,12.0,MODERATE,12,0.79,1.0,12.0,MODERATE,synthetic,True
+100,3,Highway CNG Station,3.1,11.35,MODERATE,20,0.92,1.05,19.05,HIGH,synthetic,True
+101,3,Highway CNG Station,3.1,16.57,HEAVY,3,0.91,1.02,2.94,LOW,synthetic,True
+102,3,Highway CNG Station,3.1,17.12,HEAVY,9,1.13,1.13,7.96,MODERATE,synthetic,True
+103,3,Highway CNG Station,3.1,17.24,HEAVY,20,1.11,1.12,17.86,HIGH,synthetic,True
+104,4,EcoFill CNG Hub,4.5,12.37,LOW,1,0.48,0.67,1.49,LOW,synthetic,True
+105,4,EcoFill CNG Hub,4.5,11.9,LOW,6,0.52,0.67,8.96,MODERATE,synthetic,True
+106,4,EcoFill CNG Hub,4.5,11.4,LOW,20,0.51,0.68,29.41,HIGH,synthetic,True
+107,4,EcoFill CNG Hub,4.5,14.48,MODERATE,3,0.66,0.74,4.05,LOW,synthetic,True
+108,4,EcoFill CNG Hub,4.5,14.64,MODERATE,9,0.63,0.73,12.33,MODERATE,synthetic,True
+109,4,EcoFill CNG Hub,4.5,14.71,MODERATE,20,0.57,0.71,28.17,HIGH,synthetic,True
+110,4,EcoFill CNG Hub,4.5,22.15,HEAVY,3,0.76,0.75,4.0,LOW,synthetic,True
+111,4,EcoFill CNG Hub,4.5,21.12,HEAVY,12,0.64,0.71,16.9,MODERATE,synthetic,True
+112,4,EcoFill CNG Hub,4.5,21.12,HEAVY,17,0.62,0.68,25.0,HIGH,synthetic,True
+113,1,Green Fuel CNG Station,1.2,4.1,LOW,1,0.42,0.58,1.72,LOW,synthetic,True
+114,1,Green Fuel CNG Station,1.2,4.31,LOW,9,0.4,0.59,15.25,MODERATE,synthetic,True
+115,1,Green Fuel CNG Station,1.2,5.29,LOW,17,0.44,0.6,28.33,HIGH,synthetic,True
+116,1,Green Fuel CNG Station,1.2,5.45,MODERATE,5,0.47,0.6,8.33,LOW,synthetic,True
+117,1,Green Fuel CNG Station,1.2,5.81,MODERATE,9,0.59,0.66,13.64,MODERATE,synthetic,True
+118,1,Green Fuel CNG Station,1.2,5.73,MODERATE,20,0.53,0.62,32.26,HIGH,synthetic,True
+119,1,Green Fuel CNG Station,1.2,8.5,HEAVY,3,0.52,0.61,4.92,LOW,synthetic,True
+120,1,Green Fuel CNG Station,1.2,8.97,HEAVY,9,0.65,0.64,14.06,MODERATE,synthetic,True
+121,1,Green Fuel CNG Station,1.2,8.49,HEAVY,20,0.51,0.55,36.36,HIGH,synthetic,True
+122,2,City Gas Point,2.4,7.47,LOW,1,0.49,0.78,1.28,LOW,synthetic,True
+123,2,City Gas Point,2.4,7.71,LOW,9,0.48,0.75,12.0,MODERATE,synthetic,True
+124,2,City Gas Point,2.4,7.58,LOW,17,0.56,0.73,23.29,HIGH,synthetic,True
+125,2,City Gas Point,2.4,10.5,MODERATE,1,0.66,0.76,1.32,LOW,synthetic,True
+126,2,City Gas Point,2.4,9.06,MODERATE,9,0.58,0.73,12.33,MODERATE,synthetic,True
+127,2,City Gas Point,2.4,9.93,MODERATE,14,0.65,0.81,17.28,HIGH,synthetic,True
+128,2,City Gas Point,2.4,14.92,HEAVY,1,0.71,0.72,1.39,LOW,synthetic,True
+129,2,City Gas Point,2.4,14.41,HEAVY,9,0.78,0.78,11.54,MODERATE,synthetic,True
+130,2,City Gas Point,2.4,14.95,HEAVY,20,0.79,0.79,25.32,HIGH,synthetic,True
+131,3,Highway CNG Station,3.1,9.82,LOW,1,0.86,1.12,0.89,LOW,synthetic,True
+132,3,Highway CNG Station,3.1,9.69,LOW,9,0.78,1.07,8.41,MODERATE,synthetic,True
+133,3,Highway CNG Station,3.1,10.08,LOW,20,0.74,1.02,19.61,HIGH,synthetic,True
+134,3,Highway CNG Station,3.1,12.17,MODERATE,5,1.04,1.19,4.2,LOW,synthetic,True
+135,3,Highway CNG Station,3.1,11.76,MODERATE,9,0.95,1.11,8.11,MODERATE,synthetic,True
+136,3,Highway CNG Station,3.1,11.16,MODERATE,17,0.79,0.95,17.89,HIGH,synthetic,True
+137,3,Highway CNG Station,3.1,16.73,HEAVY,3,1.16,1.14,2.63,LOW,synthetic,True
+138,3,Highway CNG Station,3.1,17.42,HEAVY,6,1.22,1.17,5.13,MODERATE,synthetic,True
+139,3,Highway CNG Station,3.1,17.6,HEAVY,20,1.11,1.18,16.95,HIGH,synthetic,True
+140,4,EcoFill CNG Hub,4.5,11.62,LOW,3,0.44,0.69,4.35,LOW,synthetic,True
+141,4,EcoFill CNG Hub,4.5,12.2,LOW,9,0.46,0.68,13.24,MODERATE,synthetic,True
+142,4,EcoFill CNG Hub,4.5,11.93,LOW,17,0.49,0.65,26.15,HIGH,synthetic,True
+143,4,EcoFill CNG Hub,4.5,15.05,MODERATE,3,0.62,0.75,4.0,LOW,synthetic,True
+144,4,EcoFill CNG Hub,4.5,14.13,MODERATE,9,0.61,0.72,12.5,MODERATE,synthetic,True
+145,4,EcoFill CNG Hub,4.5,15.04,MODERATE,20,0.59,0.7,28.57,HIGH,synthetic,True
+146,4,EcoFill CNG Hub,4.5,21.14,HEAVY,5,0.7,0.74,6.76,LOW,synthetic,True
+147,4,EcoFill CNG Hub,4.5,21.87,HEAVY,6,0.63,0.7,8.57,MODERATE,synthetic,True
+148,4,EcoFill CNG Hub,4.5,21.83,HEAVY,17,0.66,0.72,23.61,HIGH,synthetic,True
+149,1,Green Fuel CNG Station,1.2,4.35,LOW,3,0.42,0.64,4.69,LOW,synthetic,True
+150,1,Green Fuel CNG Station,1.2,5.43,LOW,12,0.36,0.58,20.69,MODERATE,synthetic,True
+151,1,Green Fuel CNG Station,1.2,4.41,LOW,20,0.36,0.57,35.09,HIGH,synthetic,True
+152,1,Green Fuel CNG Station,1.2,6.47,MODERATE,5,0.57,0.68,7.35,LOW,synthetic,True
+153,1,Green Fuel CNG Station,1.2,5.02,MODERATE,6,0.49,0.59,10.17,MODERATE,synthetic,True
+154,1,Green Fuel CNG Station,1.2,5.83,MODERATE,20,0.45,0.57,35.09,HIGH,synthetic,True
+155,1,Green Fuel CNG Station,1.2,8.24,HEAVY,5,0.65,0.67,7.46,LOW,synthetic,True
+156,1,Green Fuel CNG Station,1.2,8.01,HEAVY,6,0.59,0.62,9.68,MODERATE,synthetic,True
+157,1,Green Fuel CNG Station,1.2,8.73,HEAVY,14,0.59,0.58,24.14,HIGH,synthetic,True
+158,2,City Gas Point,2.4,7.43,LOW,3,0.53,0.76,3.95,LOW,synthetic,True
+159,2,City Gas Point,2.4,7.38,LOW,12,0.5,0.81,14.81,MODERATE,synthetic,True
+160,2,City Gas Point,2.4,8.36,LOW,17,0.57,0.77,22.08,HIGH,synthetic,True
+161,2,City Gas Point,2.4,9.88,MODERATE,3,0.62,0.75,4.0,LOW,synthetic,True
+162,2,City Gas Point,2.4,10.44,MODERATE,9,0.63,0.74,12.16,MODERATE,synthetic,True
+163,2,City Gas Point,2.4,9.4,MODERATE,14,0.65,0.81,17.28,HIGH,synthetic,True
+164,2,City Gas Point,2.4,13.73,HEAVY,1,0.64,0.72,1.39,LOW,synthetic,True
+165,2,City Gas Point,2.4,13.55,HEAVY,9,0.73,0.75,12.0,MODERATE,synthetic,True
+166,2,City Gas Point,2.4,13.61,HEAVY,17,0.77,0.78,21.79,HIGH,synthetic,True
+167,3,Highway CNG Station,3.1,9.79,LOW,1,0.91,1.23,0.81,LOW,synthetic,True
+168,3,Highway CNG Station,3.1,10.16,LOW,6,0.75,1.08,5.56,MODERATE,synthetic,True
+169,3,Highway CNG Station,3.1,9.69,LOW,14,0.61,0.97,14.43,HIGH,synthetic,True
+170,3,Highway CNG Station,3.1,12.03,MODERATE,5,1.02,1.23,4.07,LOW,synthetic,True
+171,3,Highway CNG Station,3.1,11.74,MODERATE,12,0.87,1.07,11.21,MODERATE,synthetic,True
+172,3,Highway CNG Station,3.1,11.48,MODERATE,14,1.0,1.13,12.39,HIGH,synthetic,True
+173,3,Highway CNG Station,3.1,17.75,HEAVY,3,0.86,0.96,3.12,LOW,synthetic,True
+174,3,Highway CNG Station,3.1,17.51,HEAVY,12,0.97,1.13,10.62,MODERATE,synthetic,True
+175,3,Highway CNG Station,3.1,17.21,HEAVY,17,1.12,1.12,15.18,HIGH,synthetic,True
+176,4,EcoFill CNG Hub,4.5,11.85,LOW,5,0.46,0.71,7.04,LOW,synthetic,True
+177,4,EcoFill CNG Hub,4.5,11.7,LOW,9,0.53,0.78,11.54,MODERATE,synthetic,True
+178,4,EcoFill CNG Hub,4.5,12.24,LOW,20,0.42,0.66,30.3,HIGH,synthetic,True
+179,4,EcoFill CNG Hub,4.5,14.83,MODERATE,3,0.61,0.74,4.05,LOW,synthetic,True
+180,4,EcoFill CNG Hub,4.5,15.46,MODERATE,9,0.53,0.66,13.64,MODERATE,synthetic,True
+181,4,EcoFill CNG Hub,4.5,14.99,MODERATE,17,0.67,0.76,22.37,HIGH,synthetic,True
+182,4,EcoFill CNG Hub,4.5,21.54,HEAVY,5,0.61,0.71,7.04,LOW,synthetic,True
+183,4,EcoFill CNG Hub,4.5,21.4,HEAVY,9,0.73,0.73,12.33,MODERATE,synthetic,True
+184,4,EcoFill CNG Hub,4.5,21.73,HEAVY,14,0.72,0.77,18.18,HIGH,synthetic,True
+185,1,Green Fuel CNG Station,1.2,5.06,LOW,1,0.48,0.68,1.47,LOW,synthetic,True
+186,1,Green Fuel CNG Station,1.2,4.34,LOW,9,0.43,0.62,14.52,MODERATE,synthetic,True
+187,1,Green Fuel CNG Station,1.2,4.75,LOW,14,0.38,0.61,22.95,HIGH,synthetic,True
+188,1,Green Fuel CNG Station,1.2,6.25,MODERATE,5,0.51,0.59,8.47,LOW,synthetic,True
+189,1,Green Fuel CNG Station,1.2,5.29,MODERATE,9,0.49,0.58,15.52,MODERATE,synthetic,True
+190,1,Green Fuel CNG Station,1.2,5.1,MODERATE,20,0.55,0.62,32.26,HIGH,synthetic,True
+191,1,Green Fuel CNG Station,1.2,8.73,HEAVY,3,0.59,0.59,5.08,LOW,synthetic,True
+192,1,Green Fuel CNG Station,1.2,9.0,HEAVY,9,0.65,0.64,14.06,MODERATE,synthetic,True
+193,1,Green Fuel CNG Station,1.2,8.02,HEAVY,17,0.62,0.66,25.76,HIGH,synthetic,True
+194,2,City Gas Point,2.4,8.5,LOW,5,0.53,0.79,6.33,LOW,synthetic,True
+195,2,City Gas Point,2.4,7.27,LOW,12,0.49,0.73,16.44,MODERATE,synthetic,True
+196,2,City Gas Point,2.4,7.78,LOW,20,0.58,0.76,26.32,HIGH,synthetic,True
+197,2,City Gas Point,2.4,9.74,MODERATE,5,0.69,0.8,6.25,LOW,synthetic,True
+198,2,City Gas Point,2.4,10.3,MODERATE,6,0.65,0.72,8.33,MODERATE,synthetic,True
+199,2,City Gas Point,2.4,10.08,MODERATE,17,0.63,0.71,23.94,HIGH,synthetic,True
+200,2,City Gas Point,2.4,14.2,HEAVY,3,0.84,0.8,3.75,LOW,synthetic,True
+201,2,City Gas Point,2.4,13.62,HEAVY,9,0.73,0.74,12.16,MODERATE,synthetic,True
+202,2,City Gas Point,2.4,14.93,HEAVY,17,0.82,0.8,21.25,HIGH,synthetic,True
+203,3,Highway CNG Station,3.1,8.85,LOW,5,0.86,1.17,4.27,LOW,synthetic,True
+204,3,Highway CNG Station,3.1,10.3,LOW,6,0.74,1.02,5.88,MODERATE,synthetic,True
+205,3,Highway CNG Station,3.1,9.47,LOW,20,0.76,0.98,20.41,HIGH,synthetic,True
+206,3,Highway CNG Station,3.1,12.19,MODERATE,5,0.81,1.04,4.81,LOW,synthetic,True
+207,3,Highway CNG Station,3.1,11.8,MODERATE,9,0.88,1.06,8.49,MODERATE,synthetic,True
+208,3,Highway CNG Station,3.1,11.12,MODERATE,20,0.92,1.15,17.39,HIGH,synthetic,True
+209,3,Highway CNG Station,3.1,16.71,HEAVY,3,1.02,1.14,2.63,LOW,synthetic,True
+210,3,Highway CNG Station,3.1,16.51,HEAVY,9,1.07,1.14,7.89,MODERATE,synthetic,True
+211,3,Highway CNG Station,3.1,16.61,HEAVY,17,1.2,1.22,13.93,HIGH,synthetic,True
+212,4,EcoFill CNG Hub,4.5,12.24,LOW,3,0.51,0.78,3.85,LOW,synthetic,True
+213,4,EcoFill CNG Hub,4.5,12.48,LOW,9,0.48,0.76,11.84,MODERATE,synthetic,True
+214,4,EcoFill CNG Hub,4.5,11.64,LOW,14,0.48,0.68,20.59,HIGH,synthetic,True
+215,4,EcoFill CNG Hub,4.5,14.59,MODERATE,5,0.62,0.69,7.25,LOW,synthetic,True
+216,4,EcoFill CNG Hub,4.5,15.46,MODERATE,6,0.62,0.72,8.33,MODERATE,synthetic,True
+217,4,EcoFill CNG Hub,4.5,15.16,MODERATE,20,0.66,0.75,26.67,HIGH,synthetic,True
+218,4,EcoFill CNG Hub,4.5,21.29,HEAVY,1,0.67,0.73,1.37,LOW,synthetic,True
+219,4,EcoFill CNG Hub,4.5,22.02,HEAVY,9,0.74,0.74,12.16,MODERATE,synthetic,True
+220,4,EcoFill CNG Hub,4.5,21.06,HEAVY,14,0.75,0.73,19.18,HIGH,synthetic,True
+221,1,Green Fuel CNG Station,1.2,4.14,LOW,3,0.37,0.55,5.45,LOW,synthetic,True
+222,1,Green Fuel CNG Station,1.2,4.2,LOW,9,0.4,0.59,15.25,MODERATE,synthetic,True
+223,1,Green Fuel CNG Station,1.2,5.37,LOW,20,0.44,0.66,30.3,HIGH,synthetic,True
+224,1,Green Fuel CNG Station,1.2,6.45,MODERATE,1,0.51,0.58,1.72,LOW,synthetic,True
+225,1,Green Fuel CNG Station,1.2,5.7,MODERATE,9,0.53,0.65,13.85,MODERATE,synthetic,True
+226,1,Green Fuel CNG Station,1.2,6.01,MODERATE,14,0.51,0.57,24.56,HIGH,synthetic,True
+227,1,Green Fuel CNG Station,1.2,8.34,HEAVY,5,0.71,0.68,7.35,LOW,synthetic,True
+228,1,Green Fuel CNG Station,1.2,7.69,HEAVY,6,0.55,0.65,9.23,MODERATE,synthetic,True
+229,1,Green Fuel CNG Station,1.2,8.07,HEAVY,17,0.63,0.64,26.56,HIGH,synthetic,True
+230,2,City Gas Point,2.4,7.91,LOW,5,0.5,0.81,6.17,LOW,synthetic,True
+231,2,City Gas Point,2.4,7.53,LOW,12,0.57,0.81,14.81,MODERATE,synthetic,True
+232,2,City Gas Point,2.4,8.17,LOW,14,0.53,0.78,17.95,HIGH,synthetic,True
+233,2,City Gas Point,2.4,10.49,MODERATE,1,0.64,0.72,1.39,LOW,synthetic,True
+234,2,City Gas Point,2.4,9.58,MODERATE,6,0.63,0.71,8.45,MODERATE,synthetic,True
+235,2,City Gas Point,2.4,9.63,MODERATE,17,0.68,0.78,21.79,HIGH,synthetic,True
+236,2,City Gas Point,2.4,13.65,HEAVY,5,0.81,0.79,6.33,LOW,synthetic,True
+237,2,City Gas Point,2.4,13.55,HEAVY,9,0.8,0.77,11.69,MODERATE,synthetic,True
+238,2,City Gas Point,2.4,14.78,HEAVY,17,0.69,0.73,23.29,HIGH,synthetic,True
+239,3,Highway CNG Station,3.1,8.89,LOW,1,0.83,1.24,0.81,LOW,synthetic,True
+240,3,Highway CNG Station,3.1,8.94,LOW,9,0.63,1.01,8.91,MODERATE,synthetic,True
+241,3,Highway CNG Station,3.1,8.88,LOW,14,0.81,1.14,12.28,HIGH,synthetic,True
+242,3,Highway CNG Station,3.1,11.31,MODERATE,3,0.81,1.02,2.94,LOW,synthetic,True
+243,3,Highway CNG Station,3.1,11.35,MODERATE,12,0.81,1.01,11.88,MODERATE,synthetic,True
+244,3,Highway CNG Station,3.1,12.29,MODERATE,14,1.01,1.19,11.76,HIGH,synthetic,True
+245,3,Highway CNG Station,3.1,16.76,HEAVY,1,1.2,1.25,0.8,LOW,synthetic,True
+246,3,Highway CNG Station,3.1,17.68,HEAVY,12,1.06,1.21,9.92,MODERATE,synthetic,True
+247,3,Highway CNG Station,3.1,16.58,HEAVY,14,0.96,1.13,12.39,HIGH,synthetic,True
+248,4,EcoFill CNG Hub,4.5,11.91,LOW,5,0.43,0.7,7.14,LOW,synthetic,True
+249,4,EcoFill CNG Hub,4.5,11.53,LOW,9,0.45,0.72,12.5,MODERATE,synthetic,True
+250,4,EcoFill CNG Hub,4.5,11.65,LOW,20,0.49,0.66,30.3,HIGH,synthetic,True
+251,4,EcoFill CNG Hub,4.5,15.27,MODERATE,5,0.61,0.78,6.41,LOW,synthetic,True
+252,4,EcoFill CNG Hub,4.5,14.11,MODERATE,9,0.62,0.74,12.16,MODERATE,synthetic,True
+253,4,EcoFill CNG Hub,4.5,14.41,MODERATE,14,0.55,0.69,20.29,HIGH,synthetic,True
+254,4,EcoFill CNG Hub,4.5,22.49,HEAVY,5,0.72,0.73,6.85,LOW,synthetic,True
+255,4,EcoFill CNG Hub,4.5,21.15,HEAVY,12,0.66,0.69,17.39,MODERATE,synthetic,True
+256,4,EcoFill CNG Hub,4.5,21.83,HEAVY,20,0.65,0.66,30.3,HIGH,synthetic,True
+257,1,Green Fuel CNG Station,1.2,4.51,LOW,1,0.46,0.61,1.64,LOW,synthetic,True
+258,1,Green Fuel CNG Station,1.2,4.64,LOW,9,0.44,0.6,15.0,MODERATE,synthetic,True
+259,1,Green Fuel CNG Station,1.2,4.1,LOW,20,0.45,0.58,34.48,HIGH,synthetic,True
+260,1,Green Fuel CNG Station,1.2,5.56,MODERATE,1,0.44,0.56,1.79,LOW,synthetic,True
+261,1,Green Fuel CNG Station,1.2,5.84,MODERATE,6,0.53,0.62,9.68,MODERATE,synthetic,True
+262,1,Green Fuel CNG Station,1.2,6.41,MODERATE,20,0.47,0.57,35.09,HIGH,synthetic,True
+263,1,Green Fuel CNG Station,1.2,8.4,HEAVY,3,0.66,0.66,4.55,LOW,synthetic,True
+264,1,Green Fuel CNG Station,1.2,8.49,HEAVY,9,0.53,0.56,16.07,MODERATE,synthetic,True
+265,1,Green Fuel CNG Station,1.2,8.05,HEAVY,14,0.61,0.66,21.21,HIGH,synthetic,True
+266,2,City Gas Point,2.4,8.66,LOW,3,0.57,0.77,3.9,LOW,synthetic,True
+267,2,City Gas Point,2.4,8.11,LOW,12,0.55,0.77,15.58,MODERATE,synthetic,True
+268,2,City Gas Point,2.4,7.61,LOW,20,0.52,0.8,25.0,HIGH,synthetic,True
+269,2,City Gas Point,2.4,10.3,MODERATE,3,0.67,0.81,3.7,LOW,synthetic,True
+270,2,City Gas Point,2.4,9.95,MODERATE,12,0.61,0.78,15.38,MODERATE,synthetic,True
+271,2,City Gas Point,2.4,9.63,MODERATE,14,0.6,0.71,19.72,HIGH,synthetic,True
+272,2,City Gas Point,2.4,14.67,HEAVY,3,0.66,0.72,4.17,LOW,synthetic,True
+273,2,City Gas Point,2.4,13.74,HEAVY,12,0.79,0.77,15.58,MODERATE,synthetic,True
+274,2,City Gas Point,2.4,14.49,HEAVY,20,0.62,0.71,28.17,HIGH,synthetic,True
+275,3,Highway CNG Station,3.1,9.93,LOW,3,0.76,1.13,2.65,LOW,synthetic,True
+276,3,Highway CNG Station,3.1,9.53,LOW,6,0.65,1.05,5.71,MODERATE,synthetic,True
+277,3,Highway CNG Station,3.1,8.88,LOW,20,0.67,1.04,19.23,HIGH,synthetic,True
+278,3,Highway CNG Station,3.1,12.15,MODERATE,1,0.84,1.04,0.96,LOW,synthetic,True
+279,3,Highway CNG Station,3.1,11.65,MODERATE,9,0.82,1.05,8.57,MODERATE,synthetic,True
+280,3,Highway CNG Station,3.1,11.84,MODERATE,14,0.92,1.06,13.21,HIGH,synthetic,True
+281,3,Highway CNG Station,3.1,17.61,HEAVY,5,1.03,1.19,4.2,LOW,synthetic,True
+282,3,Highway CNG Station,3.1,16.97,HEAVY,9,0.99,0.96,9.38,MODERATE,synthetic,True
+283,3,Highway CNG Station,3.1,16.93,HEAVY,17,1.11,1.12,15.18,HIGH,synthetic,True
+284,4,EcoFill CNG Hub,4.5,11.89,LOW,3,0.43,0.65,4.62,LOW,synthetic,True
+285,4,EcoFill CNG Hub,4.5,11.56,LOW,12,0.47,0.77,15.58,MODERATE,synthetic,True
+286,4,EcoFill CNG Hub,4.5,12.32,LOW,20,0.43,0.7,28.57,HIGH,synthetic,True
+287,4,EcoFill CNG Hub,4.5,14.95,MODERATE,1,0.55,0.69,1.45,LOW,synthetic,True
+288,4,EcoFill CNG Hub,4.5,14.53,MODERATE,12,0.64,0.72,16.67,MODERATE,synthetic,True
+289,4,EcoFill CNG Hub,4.5,14.38,MODERATE,20,0.61,0.76,26.32,HIGH,synthetic,True
+290,4,EcoFill CNG Hub,4.5,21.11,HEAVY,1,0.73,0.73,1.37,LOW,synthetic,True
+291,4,EcoFill CNG Hub,4.5,21.87,HEAVY,12,0.71,0.71,16.9,MODERATE,synthetic,True
+292,4,EcoFill CNG Hub,4.5,22.48,HEAVY,20,0.74,0.77,25.97,HIGH,synthetic,True
+293,1,Green Fuel CNG Station,1.2,4.66,LOW,3,0.47,0.66,4.55,LOW,synthetic,True
+294,1,Green Fuel CNG Station,1.2,4.89,LOW,9,0.4,0.61,14.75,MODERATE,synthetic,True
+295,1,Green Fuel CNG Station,1.2,4.06,LOW,17,0.41,0.62,27.42,HIGH,synthetic,True
+296,1,Green Fuel CNG Station,1.2,6.47,MODERATE,3,0.52,0.66,4.55,LOW,synthetic,True
+297,1,Green Fuel CNG Station,1.2,5.87,MODERATE,6,0.53,0.63,9.52,MODERATE,synthetic,True
+298,1,Green Fuel CNG Station,1.2,5.86,MODERATE,20,0.56,0.67,29.85,HIGH,synthetic,True
+299,1,Green Fuel CNG Station,1.2,8.94,HEAVY,1,0.56,0.59,1.69,LOW,synthetic,True
+300,1,Green Fuel CNG Station,1.2,8.97,HEAVY,9,0.58,0.56,16.07,MODERATE,synthetic,True
+301,1,Green Fuel CNG Station,1.2,8.56,HEAVY,14,0.55,0.62,22.58,HIGH,synthetic,True
+302,2,City Gas Point,2.4,7.76,LOW,3,0.54,0.76,3.95,LOW,synthetic,True
+303,2,City Gas Point,2.4,7.28,LOW,9,0.55,0.75,12.0,MODERATE,synthetic,True
+304,2,City Gas Point,2.4,8.04,LOW,20,0.48,0.78,25.64,HIGH,synthetic,True
+305,2,City Gas Point,2.4,10.45,MODERATE,3,0.63,0.73,4.11,LOW,synthetic,True
+306,2,City Gas Point,2.4,10.0,MODERATE,12,0.66,0.8,15.0,MODERATE,synthetic,True
+307,2,City Gas Point,2.4,9.59,MODERATE,17,0.64,0.74,22.97,HIGH,synthetic,True
+308,2,City Gas Point,2.4,14.07,HEAVY,5,0.68,0.79,6.33,LOW,synthetic,True
+309,2,City Gas Point,2.4,14.92,HEAVY,9,0.79,0.8,11.25,MODERATE,synthetic,True
+310,2,City Gas Point,2.4,14.14,HEAVY,20,0.7,0.81,24.69,HIGH,synthetic,True
+311,3,Highway CNG Station,3.1,9.31,LOW,3,0.63,0.96,3.12,LOW,synthetic,True
+312,3,Highway CNG Station,3.1,8.92,LOW,9,0.79,1.01,8.91,MODERATE,synthetic,True
+313,3,Highway CNG Station,3.1,8.86,LOW,14,0.77,1.1,12.73,HIGH,synthetic,True
+314,3,Highway CNG Station,3.1,11.57,MODERATE,3,1.03,1.21,2.48,LOW,synthetic,True
+315,3,Highway CNG Station,3.1,12.21,MODERATE,6,0.86,1.0,6.0,MODERATE,synthetic,True
+316,3,Highway CNG Station,3.1,12.01,MODERATE,14,0.92,1.17,11.97,HIGH,synthetic,True
+317,3,Highway CNG Station,3.1,17.62,HEAVY,1,1.21,1.24,0.81,LOW,synthetic,True
+318,3,Highway CNG Station,3.1,17.68,HEAVY,9,0.92,1.02,8.82,MODERATE,synthetic,True
+319,3,Highway CNG Station,3.1,17.19,HEAVY,14,1.1,1.06,13.21,HIGH,synthetic,True
+320,4,EcoFill CNG Hub,4.5,12.65,LOW,3,0.52,0.75,4.0,LOW,synthetic,True
+321,4,EcoFill CNG Hub,4.5,11.28,LOW,6,0.47,0.75,8.0,MODERATE,synthetic,True
+322,4,EcoFill CNG Hub,4.5,12.27,LOW,17,0.53,0.76,22.37,HIGH,synthetic,True
+323,4,EcoFill CNG Hub,4.5,14.24,MODERATE,5,0.62,0.76,6.58,LOW,synthetic,True
+324,4,EcoFill CNG Hub,4.5,14.14,MODERATE,9,0.61,0.77,11.69,MODERATE,synthetic,True
+325,4,EcoFill CNG Hub,4.5,14.62,MODERATE,14,0.67,0.76,18.42,HIGH,synthetic,True
+326,4,EcoFill CNG Hub,4.5,21.56,HEAVY,3,0.65,0.72,4.17,LOW,synthetic,True
+327,4,EcoFill CNG Hub,4.5,21.97,HEAVY,6,0.6,0.69,8.7,MODERATE,synthetic,True
+328,4,EcoFill CNG Hub,4.5,21.71,HEAVY,14,0.61,0.67,20.9,HIGH,synthetic,True
+329,1,Green Fuel CNG Station,1.2,4.01,LOW,1,0.44,0.65,1.54,LOW,synthetic,True
+330,1,Green Fuel CNG Station,1.2,4.82,LOW,6,0.35,0.55,10.91,MODERATE,synthetic,True
+331,1,Green Fuel CNG Station,1.2,4.36,LOW,20,0.43,0.63,31.75,HIGH,synthetic,True
+332,1,Green Fuel CNG Station,1.2,5.93,MODERATE,1,0.47,0.56,1.79,LOW,synthetic,True
+333,1,Green Fuel CNG Station,1.2,5.8,MODERATE,6,0.5,0.56,10.71,MODERATE,synthetic,True
+334,1,Green Fuel CNG Station,1.2,5.44,MODERATE,20,0.5,0.62,32.26,HIGH,synthetic,True
+335,1,Green Fuel CNG Station,1.2,7.78,HEAVY,1,0.57,0.63,1.59,LOW,synthetic,True
+336,1,Green Fuel CNG Station,1.2,8.93,HEAVY,12,0.59,0.56,21.43,MODERATE,synthetic,True
+337,1,Green Fuel CNG Station,1.2,7.53,HEAVY,20,0.65,0.62,32.26,HIGH,synthetic,True
+338,2,City Gas Point,2.4,7.58,LOW,3,0.48,0.71,4.23,LOW,synthetic,True
+339,2,City Gas Point,2.4,8.3,LOW,6,0.45,0.74,8.11,MODERATE,synthetic,True
+340,2,City Gas Point,2.4,7.4,LOW,20,0.5,0.71,28.17,HIGH,synthetic,True
+341,2,City Gas Point,2.4,10.25,MODERATE,3,0.68,0.77,3.9,LOW,synthetic,True
+342,2,City Gas Point,2.4,9.27,MODERATE,12,0.66,0.76,15.79,MODERATE,synthetic,True
+343,2,City Gas Point,2.4,9.06,MODERATE,14,0.62,0.71,19.72,HIGH,synthetic,True
+344,2,City Gas Point,2.4,13.97,HEAVY,1,0.63,0.71,1.41,LOW,synthetic,True
+345,2,City Gas Point,2.4,14.21,HEAVY,9,0.8,0.76,11.84,MODERATE,synthetic,True
+346,2,City Gas Point,2.4,14.79,HEAVY,14,0.7,0.79,17.72,HIGH,synthetic,True
+347,3,Highway CNG Station,3.1,10.0,LOW,1,0.8,1.21,0.83,LOW,synthetic,True
+348,3,Highway CNG Station,3.1,9.31,LOW,9,0.9,1.22,7.38,MODERATE,synthetic,True
+349,3,Highway CNG Station,3.1,9.2,LOW,14,0.76,1.1,12.73,HIGH,synthetic,True
+350,3,Highway CNG Station,3.1,12.49,MODERATE,1,0.92,1.17,0.85,LOW,synthetic,True
+351,3,Highway CNG Station,3.1,11.49,MODERATE,6,0.91,1.11,5.41,MODERATE,synthetic,True
+352,3,Highway CNG Station,3.1,11.25,MODERATE,17,0.89,1.04,16.35,HIGH,synthetic,True
+353,3,Highway CNG Station,3.1,17.87,HEAVY,3,0.91,1.06,2.83,LOW,synthetic,True
+354,3,Highway CNG Station,3.1,17.92,HEAVY,12,1.13,1.25,9.6,MODERATE,synthetic,True
+355,3,Highway CNG Station,3.1,17.7,HEAVY,14,1.07,1.15,12.17,HIGH,synthetic,True
+356,4,EcoFill CNG Hub,4.5,12.22,LOW,5,0.41,0.67,7.46,LOW,synthetic,True
+357,4,EcoFill CNG Hub,4.5,11.74,LOW,9,0.4,0.65,13.85,MODERATE,synthetic,True
+358,4,EcoFill CNG Hub,4.5,12.62,LOW,20,0.41,0.65,30.77,HIGH,synthetic,True
+359,4,EcoFill CNG Hub,4.5,14.79,MODERATE,3,0.56,0.71,4.23,LOW,synthetic,True
+360,4,EcoFill CNG Hub,4.5,14.04,MODERATE,9,0.56,0.69,13.04,MODERATE,synthetic,True
+361,4,EcoFill CNG Hub,4.5,14.18,MODERATE,14,0.59,0.71,19.72,HIGH,synthetic,True
+362,4,EcoFill CNG Hub,4.5,21.43,HEAVY,3,0.66,0.74,4.05,LOW,synthetic,True
+363,4,EcoFill CNG Hub,4.5,21.68,HEAVY,9,0.6,0.68,13.24,MODERATE,synthetic,True
+364,4,EcoFill CNG Hub,4.5,22.45,HEAVY,20,0.62,0.71,28.17,HIGH,synthetic,True
+365,1,Green Fuel CNG Station,1.2,4.81,LOW,3,0.47,0.64,4.69,LOW,synthetic,True
+366,1,Green Fuel CNG Station,1.2,5.19,LOW,9,0.48,0.66,13.64,MODERATE,synthetic,True
+367,1,Green Fuel CNG Station,1.2,4.36,LOW,20,0.45,0.58,34.48,HIGH,synthetic,True
+368,1,Green Fuel CNG Station,1.2,5.7,MODERATE,3,0.47,0.55,5.45,LOW,synthetic,True
+369,1,Green Fuel CNG Station,1.2,5.46,MODERATE,12,0.51,0.57,21.05,MODERATE,synthetic,True
+370,1,Green Fuel CNG Station,1.2,5.61,MODERATE,20,0.54,0.64,31.25,HIGH,synthetic,True
+371,1,Green Fuel CNG Station,1.2,7.61,HEAVY,5,0.58,0.56,8.93,LOW,synthetic,True
+372,1,Green Fuel CNG Station,1.2,8.67,HEAVY,9,0.59,0.64,14.06,MODERATE,synthetic,True
+373,1,Green Fuel CNG Station,1.2,8.15,HEAVY,20,0.63,0.63,31.75,HIGH,synthetic,True
+374,2,City Gas Point,2.4,7.45,LOW,1,0.55,0.8,1.25,LOW,synthetic,True
+375,2,City Gas Point,2.4,8.54,LOW,9,0.52,0.81,11.11,MODERATE,synthetic,True
+376,2,City Gas Point,2.4,7.61,LOW,14,0.52,0.73,19.18,HIGH,synthetic,True
+377,2,City Gas Point,2.4,9.96,MODERATE,5,0.62,0.74,6.76,LOW,synthetic,True
+378,2,City Gas Point,2.4,9.94,MODERATE,12,0.65,0.81,14.81,MODERATE,synthetic,True
+379,2,City Gas Point,2.4,10.24,MODERATE,20,0.66,0.74,27.03,HIGH,synthetic,True
+380,2,City Gas Point,2.4,14.37,HEAVY,1,0.74,0.71,1.41,LOW,synthetic,True
+381,2,City Gas Point,2.4,14.46,HEAVY,12,0.7,0.73,16.44,MODERATE,synthetic,True
+382,2,City Gas Point,2.4,14.93,HEAVY,17,0.78,0.81,20.99,HIGH,synthetic,True
+383,3,Highway CNG Station,3.1,9.25,LOW,3,0.76,1.02,2.94,LOW,synthetic,True
+384,3,Highway CNG Station,3.1,9.53,LOW,6,0.73,1.16,5.17,MODERATE,synthetic,True
+385,3,Highway CNG Station,3.1,9.9,LOW,14,0.66,1.05,13.33,HIGH,synthetic,True
+386,3,Highway CNG Station,3.1,11.77,MODERATE,3,0.99,1.24,2.42,LOW,synthetic,True
+387,3,Highway CNG Station,3.1,11.67,MODERATE,6,0.88,1.05,5.71,MODERATE,synthetic,True
+388,3,Highway CNG Station,3.1,12.3,MODERATE,14,0.8,0.98,14.29,HIGH,synthetic,True
+389,3,Highway CNG Station,3.1,17.72,HEAVY,3,1.04,1.02,2.94,LOW,synthetic,True
+390,3,Highway CNG Station,3.1,17.25,HEAVY,12,1.04,1.17,10.26,MODERATE,synthetic,True
+391,3,Highway CNG Station,3.1,16.53,HEAVY,20,1.12,1.09,18.35,HIGH,synthetic,True
+392,4,EcoFill CNG Hub,4.5,12.08,LOW,3,0.56,0.72,4.17,LOW,synthetic,True
+393,4,EcoFill CNG Hub,4.5,11.63,LOW,6,0.45,0.66,9.09,MODERATE,synthetic,True
+394,4,EcoFill CNG Hub,4.5,12.29,LOW,14,0.51,0.76,18.42,HIGH,synthetic,True
+395,4,EcoFill CNG Hub,4.5,14.84,MODERATE,3,0.58,0.7,4.29,LOW,synthetic,True
+396,4,EcoFill CNG Hub,4.5,14.68,MODERATE,9,0.57,0.72,12.5,MODERATE,synthetic,True
+397,4,EcoFill CNG Hub,4.5,14.92,MODERATE,20,0.62,0.69,28.99,HIGH,synthetic,True
+398,4,EcoFill CNG Hub,4.5,22.48,HEAVY,1,0.72,0.78,1.28,LOW,synthetic,True
+399,4,EcoFill CNG Hub,4.5,21.9,HEAVY,12,0.77,0.77,15.58,MODERATE,synthetic,True
+400,4,EcoFill CNG Hub,4.5,22.07,HEAVY,17,0.62,0.72,23.61,HIGH,synthetic,True
+401,1,Green Fuel CNG Station,1.2,4.21,LOW,3,0.39,0.62,4.84,LOW,synthetic,True
+402,1,Green Fuel CNG Station,1.2,5.11,LOW,12,0.4,0.59,20.34,MODERATE,synthetic,True
+403,1,Green Fuel CNG Station,1.2,4.8,LOW,17,0.44,0.63,26.98,HIGH,synthetic,True
+404,1,Green Fuel CNG Station,1.2,5.55,MODERATE,5,0.52,0.62,8.06,LOW,synthetic,True
+405,1,Green Fuel CNG Station,1.2,6.2,MODERATE,12,0.46,0.56,21.43,MODERATE,synthetic,True
+406,1,Green Fuel CNG Station,1.2,5.71,MODERATE,20,0.56,0.66,30.3,HIGH,synthetic,True
+407,1,Green Fuel CNG Station,1.2,7.84,HEAVY,5,0.65,0.65,7.69,LOW,synthetic,True
+408,1,Green Fuel CNG Station,1.2,8.58,HEAVY,6,0.56,0.63,9.52,MODERATE,synthetic,True
+409,1,Green Fuel CNG Station,1.2,8.36,HEAVY,17,0.56,0.57,29.82,HIGH,synthetic,True
+410,2,City Gas Point,2.4,7.83,LOW,5,0.43,0.71,7.04,LOW,synthetic,True
+411,2,City Gas Point,2.4,8.58,LOW,9,0.53,0.78,11.54,MODERATE,synthetic,True
+412,2,City Gas Point,2.4,7.51,LOW,20,0.57,0.79,25.32,HIGH,synthetic,True
+413,2,City Gas Point,2.4,9.47,MODERATE,3,0.69,0.82,3.66,LOW,synthetic,True
+414,2,City Gas Point,2.4,9.53,MODERATE,6,0.64,0.76,7.89,MODERATE,synthetic,True
+415,2,City Gas Point,2.4,9.92,MODERATE,20,0.68,0.78,25.64,HIGH,synthetic,True
+416,2,City Gas Point,2.4,13.84,HEAVY,1,0.73,0.81,1.23,LOW,synthetic,True
+417,2,City Gas Point,2.4,14.56,HEAVY,9,0.78,0.79,11.39,MODERATE,synthetic,True
+418,2,City Gas Point,2.4,14.58,HEAVY,17,0.73,0.76,22.37,HIGH,synthetic,True
+419,3,Highway CNG Station,3.1,10.14,LOW,3,0.71,0.99,3.03,LOW,synthetic,True
+420,3,Highway CNG Station,3.1,9.24,LOW,9,0.93,1.2,7.5,MODERATE,synthetic,True
+421,3,Highway CNG Station,3.1,9.78,LOW,17,0.76,1.24,13.71,HIGH,synthetic,True
+422,3,Highway CNG Station,3.1,11.41,MODERATE,5,0.88,1.09,4.59,LOW,synthetic,True
+423,3,Highway CNG Station,3.1,12.11,MODERATE,12,0.92,1.16,10.34,MODERATE,synthetic,True
+424,3,Highway CNG Station,3.1,11.34,MODERATE,14,0.88,1.02,13.73,HIGH,synthetic,True
+425,3,Highway CNG Station,3.1,17.21,HEAVY,1,0.9,0.97,1.03,LOW,synthetic,True
+426,3,Highway CNG Station,3.1,17.97,HEAVY,12,1.0,1.18,10.17,MODERATE,synthetic,True
+427,3,Highway CNG Station,3.1,17.22,HEAVY,14,1.11,1.07,13.08,HIGH,synthetic,True
+428,4,EcoFill CNG Hub,4.5,12.17,LOW,1,0.49,0.75,1.33,LOW,synthetic,True
+429,4,EcoFill CNG Hub,4.5,12.57,LOW,6,0.47,0.73,8.22,MODERATE,synthetic,True
+430,4,EcoFill CNG Hub,4.5,12.7,LOW,14,0.53,0.7,20.0,HIGH,synthetic,True
+431,4,EcoFill CNG Hub,4.5,15.44,MODERATE,3,0.6,0.75,4.0,LOW,synthetic,True
+432,4,EcoFill CNG Hub,4.5,14.9,MODERATE,9,0.59,0.76,11.84,MODERATE,synthetic,True
+433,4,EcoFill CNG Hub,4.5,14.79,MODERATE,17,0.62,0.69,24.64,HIGH,synthetic,True
+434,4,EcoFill CNG Hub,4.5,22.21,HEAVY,1,0.72,0.76,1.32,LOW,synthetic,True
+435,4,EcoFill CNG Hub,4.5,22.08,HEAVY,9,0.63,0.67,13.43,MODERATE,synthetic,True
+436,4,EcoFill CNG Hub,4.5,22.01,HEAVY,14,0.76,0.75,18.67,HIGH,synthetic,True
+437,1,Green Fuel CNG Station,1.2,5.24,LOW,1,0.43,0.57,1.75,LOW,synthetic,True
+438,1,Green Fuel CNG Station,1.2,4.28,LOW,12,0.4,0.59,20.34,MODERATE,synthetic,True
+439,1,Green Fuel CNG Station,1.2,4.39,LOW,14,0.47,0.61,22.95,HIGH,synthetic,True
+440,1,Green Fuel CNG Station,1.2,5.45,MODERATE,1,0.5,0.61,1.64,LOW,synthetic,True
+441,1,Green Fuel CNG Station,1.2,6.04,MODERATE,12,0.5,0.62,19.35,MODERATE,synthetic,True
+442,1,Green Fuel CNG Station,1.2,5.61,MODERATE,14,0.53,0.64,21.88,HIGH,synthetic,True
+443,1,Green Fuel CNG Station,1.2,7.97,HEAVY,5,0.69,0.67,7.46,LOW,synthetic,True
+444,1,Green Fuel CNG Station,1.2,8.42,HEAVY,6,0.65,0.63,9.52,MODERATE,synthetic,True
+445,1,Green Fuel CNG Station,1.2,8.62,HEAVY,14,0.63,0.67,20.9,HIGH,synthetic,True
+446,2,City Gas Point,2.4,8.34,LOW,5,0.54,0.74,6.76,LOW,synthetic,True
+447,2,City Gas Point,2.4,8.51,LOW,12,0.59,0.8,15.0,MODERATE,synthetic,True
+448,2,City Gas Point,2.4,7.32,LOW,14,0.53,0.76,18.42,HIGH,synthetic,True
+449,2,City Gas Point,2.4,9.3,MODERATE,5,0.62,0.71,7.04,LOW,synthetic,True
+450,2,City Gas Point,2.4,9.66,MODERATE,12,0.59,0.72,16.67,MODERATE,synthetic,True
+451,2,City Gas Point,2.4,10.35,MODERATE,20,0.61,0.72,27.78,HIGH,synthetic,True
+452,2,City Gas Point,2.4,14.12,HEAVY,3,0.75,0.8,3.75,LOW,synthetic,True
+453,2,City Gas Point,2.4,13.96,HEAVY,12,0.67,0.71,16.9,MODERATE,synthetic,True
+454,2,City Gas Point,2.4,13.83,HEAVY,14,0.76,0.75,18.67,HIGH,synthetic,True
+455,3,Highway CNG Station,3.1,9.61,LOW,1,0.64,0.96,1.04,LOW,synthetic,True
+456,3,Highway CNG Station,3.1,8.85,LOW,6,0.75,1.23,4.88,MODERATE,synthetic,True
+457,3,Highway CNG Station,3.1,9.36,LOW,17,0.62,1.0,17.0,HIGH,synthetic,True
+458,3,Highway CNG Station,3.1,11.56,MODERATE,3,0.96,1.08,2.78,LOW,synthetic,True
+459,3,Highway CNG Station,3.1,11.98,MODERATE,12,1.1,1.24,9.68,MODERATE,synthetic,True
+460,3,Highway CNG Station,3.1,11.79,MODERATE,17,0.89,0.99,17.17,HIGH,synthetic,True
+461,3,Highway CNG Station,3.1,16.53,HEAVY,5,1.26,1.24,4.03,LOW,synthetic,True
+462,3,Highway CNG Station,3.1,17.3,HEAVY,9,1.08,1.09,8.26,MODERATE,synthetic,True
+463,3,Highway CNG Station,3.1,16.78,HEAVY,14,0.94,1.02,13.73,HIGH,synthetic,True
+464,4,EcoFill CNG Hub,4.5,12.12,LOW,5,0.45,0.75,6.67,LOW,synthetic,True
+465,4,EcoFill CNG Hub,4.5,11.25,LOW,6,0.42,0.68,8.82,MODERATE,synthetic,True
+466,4,EcoFill CNG Hub,4.5,12.31,LOW,20,0.56,0.74,27.03,HIGH,synthetic,True
+467,4,EcoFill CNG Hub,4.5,15.3,MODERATE,3,0.6,0.71,4.23,LOW,synthetic,True
+468,4,EcoFill CNG Hub,4.5,15.22,MODERATE,6,0.6,0.67,8.96,MODERATE,synthetic,True
+469,4,EcoFill CNG Hub,4.5,15.01,MODERATE,20,0.61,0.72,27.78,HIGH,synthetic,True
+470,4,EcoFill CNG Hub,4.5,21.78,HEAVY,3,0.7,0.68,4.41,LOW,synthetic,True
+471,4,EcoFill CNG Hub,4.5,22.32,HEAVY,9,0.59,0.69,13.04,MODERATE,synthetic,True
+472,4,EcoFill CNG Hub,4.5,21.07,HEAVY,14,0.68,0.73,19.18,HIGH,synthetic,True
+473,1,Green Fuel CNG Station,1.2,4.48,LOW,3,0.48,0.67,4.48,LOW,synthetic,True
+474,1,Green Fuel CNG Station,1.2,5.13,LOW,9,0.39,0.6,15.0,MODERATE,synthetic,True
+475,1,Green Fuel CNG Station,1.2,5.21,LOW,17,0.37,0.58,29.31,HIGH,synthetic,True
+476,1,Green Fuel CNG Station,1.2,5.79,MODERATE,1,0.56,0.62,1.61,LOW,synthetic,True
+477,1,Green Fuel CNG Station,1.2,5.12,MODERATE,9,0.47,0.58,15.52,MODERATE,synthetic,True
+478,1,Green Fuel CNG Station,1.2,6.24,MODERATE,17,0.52,0.66,25.76,HIGH,synthetic,True
+479,1,Green Fuel CNG Station,1.2,7.56,HEAVY,1,0.57,0.58,1.72,LOW,synthetic,True
+480,1,Green Fuel CNG Station,1.2,8.51,HEAVY,6,0.57,0.57,10.53,MODERATE,synthetic,True
+481,1,Green Fuel CNG Station,1.2,7.95,HEAVY,14,0.62,0.61,22.95,HIGH,synthetic,True
+482,2,City Gas Point,2.4,8.32,LOW,1,0.46,0.73,1.37,LOW,synthetic,True
+483,2,City Gas Point,2.4,7.79,LOW,9,0.59,0.81,11.11,MODERATE,synthetic,True
+484,2,City Gas Point,2.4,7.9,LOW,14,0.57,0.77,18.18,HIGH,synthetic,True
+485,2,City Gas Point,2.4,10.32,MODERATE,5,0.6,0.74,6.76,LOW,synthetic,True
+486,2,City Gas Point,2.4,10.14,MODERATE,9,0.64,0.71,12.68,MODERATE,synthetic,True
+487,2,City Gas Point,2.4,9.07,MODERATE,17,0.67,0.81,20.99,HIGH,synthetic,True
+488,2,City Gas Point,2.4,14.9,HEAVY,1,0.67,0.79,1.27,LOW,synthetic,True
+489,2,City Gas Point,2.4,13.99,HEAVY,12,0.72,0.79,15.19,MODERATE,synthetic,True
+490,2,City Gas Point,2.4,14.48,HEAVY,17,0.69,0.77,22.08,HIGH,synthetic,True
+491,3,Highway CNG Station,3.1,10.25,LOW,5,0.77,1.05,4.76,LOW,synthetic,True
+492,3,Highway CNG Station,3.1,9.05,LOW,12,0.8,1.17,10.26,MODERATE,synthetic,True
+493,3,Highway CNG Station,3.1,10.29,LOW,20,0.7,1.11,18.02,HIGH,synthetic,True
+494,3,Highway CNG Station,3.1,12.42,MODERATE,1,0.98,1.11,0.9,LOW,synthetic,True
+495,3,Highway CNG Station,3.1,12.26,MODERATE,12,0.75,0.96,12.5,MODERATE,synthetic,True
+496,3,Highway CNG Station,3.1,11.76,MODERATE,14,0.77,0.97,14.43,HIGH,synthetic,True
+497,3,Highway CNG Station,3.1,17.87,HEAVY,3,0.95,0.97,3.09,LOW,synthetic,True
+498,3,Highway CNG Station,3.1,17.12,HEAVY,12,0.94,1.1,10.91,MODERATE,synthetic,True
+499,3,Highway CNG Station,3.1,16.53,HEAVY,14,1.0,1.11,12.61,HIGH,synthetic,True
+500,4,EcoFill CNG Hub,4.5,11.36,LOW,5,0.55,0.74,6.76,LOW,synthetic,True
+501,4,EcoFill CNG Hub,4.5,11.99,LOW,6,0.46,0.72,8.33,MODERATE,synthetic,True
+502,4,EcoFill CNG Hub,4.5,12.64,LOW,17,0.46,0.68,25.0,HIGH,synthetic,True
+503,4,EcoFill CNG Hub,4.5,14.45,MODERATE,3,0.65,0.72,4.17,LOW,synthetic,True
+504,4,EcoFill CNG Hub,4.5,14.05,MODERATE,6,0.64,0.73,8.22,MODERATE,synthetic,True
+505,4,EcoFill CNG Hub,4.5,14.96,MODERATE,17,0.59,0.7,24.29,HIGH,synthetic,True
+506,4,EcoFill CNG Hub,4.5,21.97,HEAVY,5,0.64,0.67,7.46,LOW,synthetic,True
+507,4,EcoFill CNG Hub,4.5,22.34,HEAVY,9,0.74,0.72,12.5,MODERATE,synthetic,True
+508,4,EcoFill CNG Hub,4.5,22.33,HEAVY,14,0.7,0.68,20.59,HIGH,synthetic,True
+509,1,Green Fuel CNG Station,1.2,5.35,LOW,3,0.45,0.59,5.08,LOW,synthetic,True
+510,1,Green Fuel CNG Station,1.2,4.02,LOW,12,0.4,0.64,18.75,MODERATE,synthetic,True
+511,1,Green Fuel CNG Station,1.2,5.39,LOW,14,0.46,0.63,22.22,HIGH,synthetic,True
+512,1,Green Fuel CNG Station,1.2,6.27,MODERATE,3,0.46,0.57,5.26,LOW,synthetic,True
+513,1,Green Fuel CNG Station,1.2,6.11,MODERATE,12,0.55,0.67,17.91,MODERATE,synthetic,True
+514,1,Green Fuel CNG Station,1.2,5.08,MODERATE,20,0.54,0.64,31.25,HIGH,synthetic,True
+515,1,Green Fuel CNG Station,1.2,8.65,HEAVY,3,0.5,0.58,5.17,LOW,synthetic,True
+516,1,Green Fuel CNG Station,1.2,8.45,HEAVY,12,0.6,0.6,20.0,MODERATE,synthetic,True
+517,1,Green Fuel CNG Station,1.2,8.15,HEAVY,17,0.56,0.61,27.87,HIGH,synthetic,True
+518,2,City Gas Point,2.4,7.64,LOW,5,0.51,0.77,6.49,LOW,synthetic,True
+519,2,City Gas Point,2.4,7.77,LOW,6,0.49,0.79,7.59,MODERATE,synthetic,True
+520,2,City Gas Point,2.4,7.36,LOW,20,0.48,0.72,27.78,HIGH,synthetic,True
+521,2,City Gas Point,2.4,9.4,MODERATE,1,0.68,0.81,1.23,LOW,synthetic,True
+522,2,City Gas Point,2.4,9.83,MODERATE,6,0.59,0.71,8.45,MODERATE,synthetic,True
+523,2,City Gas Point,2.4,9.14,MODERATE,17,0.56,0.71,23.94,HIGH,synthetic,True
+524,2,City Gas Point,2.4,13.94,HEAVY,5,0.81,0.79,6.33,LOW,synthetic,True
+525,2,City Gas Point,2.4,14.86,HEAVY,9,0.79,0.79,11.39,MODERATE,synthetic,True
+526,2,City Gas Point,2.4,13.75,HEAVY,14,0.68,0.77,18.18,HIGH,synthetic,True
+527,3,Highway CNG Station,3.1,9.05,LOW,3,0.72,1.04,2.88,LOW,synthetic,True
+528,3,Highway CNG Station,3.1,9.34,LOW,9,0.74,1.08,8.33,MODERATE,synthetic,True
+529,3,Highway CNG Station,3.1,9.09,LOW,14,0.81,1.17,11.97,HIGH,synthetic,True
+530,3,Highway CNG Station,3.1,11.5,MODERATE,1,0.77,0.99,1.01,LOW,synthetic,True
+531,3,Highway CNG Station,3.1,11.5,MODERATE,12,0.94,1.06,11.32,MODERATE,synthetic,True
+532,3,Highway CNG Station,3.1,11.9,MODERATE,20,0.99,1.24,16.13,HIGH,synthetic,True
+533,3,Highway CNG Station,3.1,17.95,HEAVY,5,0.92,1.01,4.95,LOW,synthetic,True
+534,3,Highway CNG Station,3.1,17.67,HEAVY,9,1.14,1.17,7.69,MODERATE,synthetic,True
+535,3,Highway CNG Station,3.1,17.05,HEAVY,17,1.07,1.06,16.04,HIGH,synthetic,True
+536,4,EcoFill CNG Hub,4.5,12.22,LOW,5,0.53,0.68,7.35,LOW,synthetic,True
+537,4,EcoFill CNG Hub,4.5,11.86,LOW,12,0.48,0.65,18.46,MODERATE,synthetic,True
+538,4,EcoFill CNG Hub,4.5,12.21,LOW,17,0.47,0.76,22.37,HIGH,synthetic,True
+539,4,EcoFill CNG Hub,4.5,14.23,MODERATE,1,0.59,0.73,1.37,LOW,synthetic,True
+540,4,EcoFill CNG Hub,4.5,14.72,MODERATE,9,0.59,0.75,12.0,MODERATE,synthetic,True
+541,4,EcoFill CNG Hub,4.5,15.04,MODERATE,17,0.64,0.72,23.61,HIGH,synthetic,True
+542,4,EcoFill CNG Hub,4.5,22.34,HEAVY,5,0.68,0.65,7.69,LOW,synthetic,True
+543,4,EcoFill CNG Hub,4.5,22.15,HEAVY,12,0.75,0.73,16.44,MODERATE,synthetic,True
+544,4,EcoFill CNG Hub,4.5,21.07,HEAVY,20,0.65,0.74,27.03,HIGH,synthetic,True
+545,1,Green Fuel CNG Station,1.2,5.45,LOW,5,0.43,0.64,7.81,LOW,synthetic,True
+546,1,Green Fuel CNG Station,1.2,4.77,LOW,9,0.35,0.56,16.07,MODERATE,synthetic,True
+547,1,Green Fuel CNG Station,1.2,4.67,LOW,20,0.45,0.62,32.26,HIGH,synthetic,True
+548,1,Green Fuel CNG Station,1.2,5.75,MODERATE,3,0.53,0.61,4.92,LOW,synthetic,True
+549,1,Green Fuel CNG Station,1.2,5.62,MODERATE,9,0.57,0.68,13.24,MODERATE,synthetic,True
+550,1,Green Fuel CNG Station,1.2,5.52,MODERATE,14,0.51,0.57,24.56,HIGH,synthetic,True
+551,1,Green Fuel CNG Station,1.2,8.02,HEAVY,3,0.54,0.61,4.92,LOW,synthetic,True
+552,1,Green Fuel CNG Station,1.2,7.6,HEAVY,6,0.6,0.61,9.84,MODERATE,synthetic,True
+553,1,Green Fuel CNG Station,1.2,8.01,HEAVY,14,0.58,0.66,21.21,HIGH,synthetic,True
+554,2,City Gas Point,2.4,7.97,LOW,1,0.49,0.78,1.28,LOW,synthetic,True
+555,2,City Gas Point,2.4,7.55,LOW,12,0.5,0.72,16.67,MODERATE,synthetic,True
+556,2,City Gas Point,2.4,7.79,LOW,17,0.49,0.78,21.79,HIGH,synthetic,True
+557,2,City Gas Point,2.4,9.64,MODERATE,5,0.62,0.77,6.49,LOW,synthetic,True
+558,2,City Gas Point,2.4,10.06,MODERATE,6,0.63,0.78,7.69,MODERATE,synthetic,True
+559,2,City Gas Point,2.4,9.28,MODERATE,14,0.67,0.77,18.18,HIGH,synthetic,True
+560,2,City Gas Point,2.4,14.79,HEAVY,3,0.63,0.72,4.17,LOW,synthetic,True
+561,2,City Gas Point,2.4,14.42,HEAVY,12,0.75,0.82,14.63,MODERATE,synthetic,True
+562,2,City Gas Point,2.4,14.43,HEAVY,20,0.65,0.71,28.17,HIGH,synthetic,True
+563,3,Highway CNG Station,3.1,9.69,LOW,5,0.76,1.16,4.31,LOW,synthetic,True
+564,3,Highway CNG Station,3.1,8.98,LOW,12,0.62,0.99,12.12,MODERATE,synthetic,True
+565,3,Highway CNG Station,3.1,9.69,LOW,17,0.8,1.16,14.66,HIGH,synthetic,True
+566,3,Highway CNG Station,3.1,11.81,MODERATE,5,0.86,1.07,4.67,LOW,synthetic,True
+567,3,Highway CNG Station,3.1,11.73,MODERATE,12,0.98,1.23,9.76,MODERATE,synthetic,True
+568,3,Highway CNG Station,3.1,11.08,MODERATE,14,0.89,1.01,13.86,HIGH,synthetic,True
+569,3,Highway CNG Station,3.1,17.72,HEAVY,3,1.17,1.24,2.42,LOW,synthetic,True
+570,3,Highway CNG Station,3.1,17.24,HEAVY,12,1.04,1.1,10.91,MODERATE,synthetic,True
+571,3,Highway CNG Station,3.1,17.35,HEAVY,20,1.14,1.2,16.67,HIGH,synthetic,True
+572,4,EcoFill CNG Hub,4.5,11.63,LOW,1,0.45,0.69,1.45,LOW,synthetic,True
+573,4,EcoFill CNG Hub,4.5,12.02,LOW,9,0.53,0.72,12.5,MODERATE,synthetic,True
+574,4,EcoFill CNG Hub,4.5,12.43,LOW,14,0.47,0.72,19.44,HIGH,synthetic,True
+575,4,EcoFill CNG Hub,4.5,15.08,MODERATE,3,0.63,0.72,4.17,LOW,synthetic,True
+576,4,EcoFill CNG Hub,4.5,15.25,MODERATE,12,0.57,0.68,17.65,MODERATE,synthetic,True
+577,4,EcoFill CNG Hub,4.5,14.39,MODERATE,14,0.62,0.69,20.29,HIGH,synthetic,True
+578,4,EcoFill CNG Hub,4.5,22.22,HEAVY,1,0.74,0.71,1.41,LOW,synthetic,True
+579,4,EcoFill CNG Hub,4.5,22.29,HEAVY,6,0.74,0.76,7.89,MODERATE,synthetic,True
+580,4,EcoFill CNG Hub,4.5,22.18,HEAVY,20,0.64,0.73,27.4,HIGH,synthetic,True
+581,1,Green Fuel CNG Station,1.2,4.42,LOW,1,0.46,0.65,1.54,LOW,synthetic,True
+582,1,Green Fuel CNG Station,1.2,4.43,LOW,12,0.44,0.57,21.05,MODERATE,synthetic,True
+583,1,Green Fuel CNG Station,1.2,4.2,LOW,17,0.46,0.67,25.37,HIGH,synthetic,True
+584,1,Green Fuel CNG Station,1.2,5.98,MODERATE,3,0.6,0.67,4.48,LOW,synthetic,True
+585,1,Green Fuel CNG Station,1.2,5.48,MODERATE,12,0.53,0.66,18.18,MODERATE,synthetic,True
+586,1,Green Fuel CNG Station,1.2,5.21,MODERATE,14,0.56,0.65,21.54,HIGH,synthetic,True
+587,1,Green Fuel CNG Station,1.2,7.61,HEAVY,5,0.54,0.58,8.62,LOW,synthetic,True
+588,1,Green Fuel CNG Station,1.2,8.9,HEAVY,6,0.6,0.6,10.0,MODERATE,synthetic,True
+589,1,Green Fuel CNG Station,1.2,7.5,HEAVY,17,0.58,0.61,27.87,HIGH,synthetic,True
+590,2,City Gas Point,2.4,8.48,LOW,5,0.55,0.71,7.04,LOW,synthetic,True
+591,2,City Gas Point,2.4,7.94,LOW,12,0.58,0.75,16.0,MODERATE,synthetic,True
+592,2,City Gas Point,2.4,7.4,LOW,17,0.53,0.8,21.25,HIGH,synthetic,True
+593,2,City Gas Point,2.4,9.07,MODERATE,3,0.7,0.79,3.8,LOW,synthetic,True
+594,2,City Gas Point,2.4,9.19,MODERATE,6,0.69,0.78,7.69,MODERATE,synthetic,True
+595,2,City Gas Point,2.4,9.3,MODERATE,14,0.59,0.75,18.67,HIGH,synthetic,True
+596,2,City Gas Point,2.4,13.74,HEAVY,5,0.83,0.81,6.17,LOW,synthetic,True
+597,2,City Gas Point,2.4,14.06,HEAVY,9,0.65,0.71,12.68,MODERATE,synthetic,True
+598,2,City Gas Point,2.4,14.59,HEAVY,20,0.67,0.72,27.78,HIGH,synthetic,True
+599,3,Highway CNG Station,3.1,8.8,LOW,1,0.67,1.08,0.93,LOW,synthetic,True
+600,3,Highway CNG Station,3.1,9.82,LOW,9,0.69,0.97,9.28,MODERATE,synthetic,True
+601,3,Highway CNG Station,3.1,10.28,LOW,14,0.63,0.95,14.74,HIGH,synthetic,True
+602,3,Highway CNG Station,3.1,11.57,MODERATE,3,0.97,1.16,2.59,LOW,synthetic,True
+603,3,Highway CNG Station,3.1,12.32,MODERATE,12,0.94,1.19,10.08,MODERATE,synthetic,True
+604,3,Highway CNG Station,3.1,11.2,MODERATE,14,0.93,1.06,13.21,HIGH,synthetic,True
+605,3,Highway CNG Station,3.1,17.42,HEAVY,5,0.95,0.99,5.05,LOW,synthetic,True
+606,3,Highway CNG Station,3.1,17.62,HEAVY,6,1.07,1.08,5.56,MODERATE,synthetic,True
+607,3,Highway CNG Station,3.1,16.63,HEAVY,17,1.06,1.13,15.04,HIGH,synthetic,True
+608,4,EcoFill CNG Hub,4.5,11.73,LOW,1,0.42,0.67,1.49,LOW,synthetic,True
+609,4,EcoFill CNG Hub,4.5,12.17,LOW,9,0.43,0.69,13.04,MODERATE,synthetic,True
+610,4,EcoFill CNG Hub,4.5,11.63,LOW,14,0.51,0.72,19.44,HIGH,synthetic,True
+611,4,EcoFill CNG Hub,4.5,14.31,MODERATE,5,0.57,0.65,7.69,LOW,synthetic,True
+612,4,EcoFill CNG Hub,4.5,14.97,MODERATE,12,0.63,0.72,16.67,MODERATE,synthetic,True
+613,4,EcoFill CNG Hub,4.5,14.96,MODERATE,14,0.56,0.71,19.72,HIGH,synthetic,True
+614,4,EcoFill CNG Hub,4.5,22.4,HEAVY,1,0.75,0.72,1.39,LOW,synthetic,True
+615,4,EcoFill CNG Hub,4.5,21.55,HEAVY,6,0.71,0.7,8.57,MODERATE,synthetic,True
+616,4,EcoFill CNG Hub,4.5,21.11,HEAVY,20,0.63,0.67,29.85,HIGH,synthetic,True
+617,1,Green Fuel CNG Station,1.2,5.38,LOW,5,0.36,0.56,8.93,LOW,synthetic,True
+618,1,Green Fuel CNG Station,1.2,5.15,LOW,9,0.44,0.62,14.52,MODERATE,synthetic,True
+619,1,Green Fuel CNG Station,1.2,4.81,LOW,17,0.39,0.64,26.56,HIGH,synthetic,True
+620,1,Green Fuel CNG Station,1.2,6.38,MODERATE,1,0.48,0.59,1.69,LOW,synthetic,True
+621,1,Green Fuel CNG Station,1.2,6.14,MODERATE,6,0.51,0.62,9.68,MODERATE,synthetic,True
+622,1,Green Fuel CNG Station,1.2,5.66,MODERATE,20,0.5,0.64,31.25,HIGH,synthetic,True
+623,1,Green Fuel CNG Station,1.2,7.67,HEAVY,1,0.49,0.56,1.79,LOW,synthetic,True
+624,1,Green Fuel CNG Station,1.2,8.49,HEAVY,12,0.57,0.63,19.05,MODERATE,synthetic,True
+625,1,Green Fuel CNG Station,1.2,7.52,HEAVY,14,0.57,0.57,24.56,HIGH,synthetic,True
+626,2,City Gas Point,2.4,7.45,LOW,3,0.56,0.81,3.7,LOW,synthetic,True
+627,2,City Gas Point,2.4,8.36,LOW,6,0.6,0.79,7.59,MODERATE,synthetic,True
+628,2,City Gas Point,2.4,7.3,LOW,14,0.5,0.74,18.92,HIGH,synthetic,True
+629,2,City Gas Point,2.4,9.68,MODERATE,5,0.7,0.82,6.1,LOW,synthetic,True
+630,2,City Gas Point,2.4,9.55,MODERATE,9,0.63,0.71,12.68,MODERATE,synthetic,True
+631,2,City Gas Point,2.4,10.08,MODERATE,17,0.7,0.79,21.52,HIGH,synthetic,True
+632,2,City Gas Point,2.4,14.79,HEAVY,1,0.67,0.79,1.27,LOW,synthetic,True
+633,2,City Gas Point,2.4,13.77,HEAVY,6,0.66,0.71,8.45,MODERATE,synthetic,True
+634,2,City Gas Point,2.4,14.48,HEAVY,14,0.8,0.77,18.18,HIGH,synthetic,True
+635,3,Highway CNG Station,3.1,9.21,LOW,1,0.71,1.05,0.95,LOW,synthetic,True
+636,3,Highway CNG Station,3.1,9.07,LOW,6,0.7,1.12,5.36,MODERATE,synthetic,True
+637,3,Highway CNG Station,3.1,10.12,LOW,20,0.96,1.24,16.13,HIGH,synthetic,True
+638,3,Highway CNG Station,3.1,11.83,MODERATE,3,0.96,1.18,2.54,LOW,synthetic,True
+639,3,Highway CNG Station,3.1,11.46,MODERATE,6,0.86,1.06,5.66,MODERATE,synthetic,True
+640,3,Highway CNG Station,3.1,12.5,MODERATE,20,0.84,1.02,19.61,HIGH,synthetic,True
+641,3,Highway CNG Station,3.1,16.87,HEAVY,1,1.12,1.17,0.85,LOW,synthetic,True
+642,3,Highway CNG Station,3.1,17.02,HEAVY,6,1.05,1.23,4.88,MODERATE,synthetic,True
+643,3,Highway CNG Station,3.1,17.64,HEAVY,20,1.26,1.21,16.53,HIGH,synthetic,True
+644,4,EcoFill CNG Hub,4.5,11.51,LOW,3,0.56,0.76,3.95,LOW,synthetic,True
+645,4,EcoFill CNG Hub,4.5,12.27,LOW,6,0.54,0.7,8.57,MODERATE,synthetic,True
+646,4,EcoFill CNG Hub,4.5,11.82,LOW,14,0.42,0.66,21.21,HIGH,synthetic,True
+647,4,EcoFill CNG Hub,4.5,14.14,MODERATE,3,0.62,0.71,4.23,LOW,synthetic,True
+648,4,EcoFill CNG Hub,4.5,14.85,MODERATE,6,0.6,0.73,8.22,MODERATE,synthetic,True
+649,4,EcoFill CNG Hub,4.5,14.39,MODERATE,17,0.59,0.74,22.97,HIGH,synthetic,True
+650,4,EcoFill CNG Hub,4.5,22.1,HEAVY,3,0.72,0.77,3.9,LOW,synthetic,True
+651,4,EcoFill CNG Hub,4.5,21.2,HEAVY,9,0.64,0.71,12.68,MODERATE,synthetic,True
+652,4,EcoFill CNG Hub,4.5,21.7,HEAVY,20,0.57,0.66,30.3,HIGH,synthetic,True
+653,1,Green Fuel CNG Station,1.2,4.68,LOW,3,0.38,0.57,5.26,LOW,synthetic,True
+654,1,Green Fuel CNG Station,1.2,5.21,LOW,9,0.36,0.58,15.52,MODERATE,synthetic,True
+655,1,Green Fuel CNG Station,1.2,4.32,LOW,17,0.48,0.66,25.76,HIGH,synthetic,True
+656,1,Green Fuel CNG Station,1.2,5.59,MODERATE,3,0.49,0.57,5.26,LOW,synthetic,True
+657,1,Green Fuel CNG Station,1.2,5.05,MODERATE,6,0.52,0.64,9.38,MODERATE,synthetic,True
+658,1,Green Fuel CNG Station,1.2,5.37,MODERATE,17,0.56,0.66,25.76,HIGH,synthetic,True
+659,1,Green Fuel CNG Station,1.2,7.52,HEAVY,3,0.56,0.56,5.36,LOW,synthetic,True
+660,1,Green Fuel CNG Station,1.2,8.53,HEAVY,6,0.58,0.57,10.53,MODERATE,synthetic,True
+661,1,Green Fuel CNG Station,1.2,7.61,HEAVY,20,0.54,0.56,35.71,HIGH,synthetic,True
+662,2,City Gas Point,2.4,7.34,LOW,1,0.52,0.72,1.39,LOW,synthetic,True
+663,2,City Gas Point,2.4,7.45,LOW,9,0.55,0.71,12.68,MODERATE,synthetic,True
+664,2,City Gas Point,2.4,7.24,LOW,20,0.55,0.75,26.67,HIGH,synthetic,True
+665,2,City Gas Point,2.4,9.41,MODERATE,5,0.62,0.75,6.67,LOW,synthetic,True
+666,2,City Gas Point,2.4,9.93,MODERATE,9,0.64,0.81,11.11,MODERATE,synthetic,True
+667,2,City Gas Point,2.4,9.72,MODERATE,20,0.61,0.74,27.03,HIGH,synthetic,True
+668,2,City Gas Point,2.4,14.46,HEAVY,1,0.64,0.73,1.37,LOW,synthetic,True
+669,2,City Gas Point,2.4,14.69,HEAVY,12,0.77,0.73,16.44,MODERATE,synthetic,True
+670,2,City Gas Point,2.4,14.67,HEAVY,17,0.73,0.79,21.52,HIGH,synthetic,True
+671,3,Highway CNG Station,3.1,9.21,LOW,3,0.84,1.22,2.46,LOW,synthetic,True
+672,3,Highway CNG Station,3.1,8.89,LOW,6,0.67,1.05,5.71,MODERATE,synthetic,True
+673,3,Highway CNG Station,3.1,10.26,LOW,17,0.82,1.11,15.32,HIGH,synthetic,True
+674,3,Highway CNG Station,3.1,12.22,MODERATE,1,0.83,1.02,0.98,LOW,synthetic,True
+675,3,Highway CNG Station,3.1,11.86,MODERATE,12,0.87,0.97,12.37,MODERATE,synthetic,True
+676,3,Highway CNG Station,3.1,11.26,MODERATE,17,0.93,1.06,16.04,HIGH,synthetic,True
+677,3,Highway CNG Station,3.1,17.04,HEAVY,1,1.14,1.13,0.88,LOW,synthetic,True
+678,3,Highway CNG Station,3.1,17.35,HEAVY,12,0.95,0.96,12.5,MODERATE,synthetic,True
+679,3,Highway CNG Station,3.1,17.82,HEAVY,20,1.25,1.23,16.26,HIGH,synthetic,True
+680,4,EcoFill CNG Hub,4.5,11.34,LOW,3,0.45,0.72,4.17,LOW,synthetic,True
+681,4,EcoFill CNG Hub,4.5,11.2,LOW,6,0.44,0.73,8.22,MODERATE,synthetic,True
+682,4,EcoFill CNG Hub,4.5,12.58,LOW,20,0.42,0.68,29.41,HIGH,synthetic,True
+683,4,EcoFill CNG Hub,4.5,15.38,MODERATE,3,0.53,0.66,4.55,LOW,synthetic,True
+684,4,EcoFill CNG Hub,4.5,14.56,MODERATE,6,0.67,0.76,7.89,MODERATE,synthetic,True
+685,4,EcoFill CNG Hub,4.5,14.48,MODERATE,20,0.55,0.7,28.57,HIGH,synthetic,True
+686,4,EcoFill CNG Hub,4.5,22.44,HEAVY,1,0.7,0.75,1.33,LOW,synthetic,True
+687,4,EcoFill CNG Hub,4.5,22.04,HEAVY,12,0.68,0.69,17.39,MODERATE,synthetic,True
+688,4,EcoFill CNG Hub,4.5,22.22,HEAVY,20,0.67,0.75,26.67,HIGH,synthetic,True
+689,1,Green Fuel CNG Station,1.2,4.27,LOW,3,0.43,0.59,5.08,LOW,synthetic,True
+690,1,Green Fuel CNG Station,1.2,5.28,LOW,6,0.52,0.67,8.96,MODERATE,synthetic,True
+691,1,Green Fuel CNG Station,1.2,4.33,LOW,20,0.39,0.55,36.36,HIGH,synthetic,True
+692,1,Green Fuel CNG Station,1.2,6.12,MODERATE,5,0.47,0.56,8.93,LOW,synthetic,True
+693,1,Green Fuel CNG Station,1.2,6.33,MODERATE,6,0.49,0.6,10.0,MODERATE,synthetic,True
+694,1,Green Fuel CNG Station,1.2,6.33,MODERATE,14,0.57,0.66,21.21,HIGH,synthetic,True
+695,1,Green Fuel CNG Station,1.2,7.6,HEAVY,3,0.49,0.55,5.45,LOW,synthetic,True
+696,1,Green Fuel CNG Station,1.2,8.08,HEAVY,9,0.65,0.65,13.85,MODERATE,synthetic,True
+697,1,Green Fuel CNG Station,1.2,8.24,HEAVY,20,0.53,0.6,33.33,HIGH,synthetic,True
+698,2,City Gas Point,2.4,8.38,LOW,3,0.49,0.74,4.05,LOW,synthetic,True
+699,2,City Gas Point,2.4,7.88,LOW,12,0.56,0.78,15.38,MODERATE,synthetic,True
+700,2,City Gas Point,2.4,7.31,LOW,14,0.49,0.74,18.92,HIGH,synthetic,True
+701,2,City Gas Point,2.4,9.82,MODERATE,1,0.65,0.81,1.23,LOW,synthetic,True
+702,2,City Gas Point,2.4,10.06,MODERATE,6,0.66,0.74,8.11,MODERATE,synthetic,True
+703,2,City Gas Point,2.4,9.24,MODERATE,17,0.65,0.81,20.99,HIGH,synthetic,True
+704,2,City Gas Point,2.4,14.55,HEAVY,1,0.77,0.74,1.35,LOW,synthetic,True
+705,2,City Gas Point,2.4,13.92,HEAVY,12,0.78,0.81,14.81,MODERATE,synthetic,True
+706,2,City Gas Point,2.4,14.76,HEAVY,14,0.66,0.71,19.72,HIGH,synthetic,True
+707,3,Highway CNG Station,3.1,9.24,LOW,1,0.58,0.97,1.03,LOW,synthetic,True
+708,3,Highway CNG Station,3.1,8.84,LOW,12,0.78,1.14,10.53,MODERATE,synthetic,True
+709,3,Highway CNG Station,3.1,10.07,LOW,14,0.88,1.14,12.28,HIGH,synthetic,True
+710,3,Highway CNG Station,3.1,11.4,MODERATE,3,1.0,1.19,2.52,LOW,synthetic,True
+711,3,Highway CNG Station,3.1,11.55,MODERATE,12,0.89,1.11,10.81,MODERATE,synthetic,True
+712,3,Highway CNG Station,3.1,11.34,MODERATE,17,0.8,0.96,17.71,HIGH,synthetic,True
+713,3,Highway CNG Station,3.1,17.5,HEAVY,3,0.99,1.12,2.68,LOW,synthetic,True
+714,3,Highway CNG Station,3.1,17.96,HEAVY,6,1.16,1.15,5.22,MODERATE,synthetic,True
+715,3,Highway CNG Station,3.1,17.73,HEAVY,20,0.88,1.02,19.61,HIGH,synthetic,True
+716,4,EcoFill CNG Hub,4.5,12.06,LOW,3,0.56,0.78,3.85,LOW,synthetic,True
+717,4,EcoFill CNG Hub,4.5,11.95,LOW,6,0.44,0.71,8.45,MODERATE,synthetic,True
+718,4,EcoFill CNG Hub,4.5,11.42,LOW,20,0.54,0.75,26.67,HIGH,synthetic,True
+719,4,EcoFill CNG Hub,4.5,15.21,MODERATE,3,0.6,0.67,4.48,LOW,synthetic,True
+720,4,EcoFill CNG Hub,4.5,14.65,MODERATE,6,0.52,0.66,9.09,MODERATE,synthetic,True
+721,4,EcoFill CNG Hub,4.5,15.37,MODERATE,20,0.57,0.67,29.85,HIGH,synthetic,True
+722,4,EcoFill CNG Hub,4.5,21.49,HEAVY,1,0.63,0.66,1.52,LOW,synthetic,True
+723,4,EcoFill CNG Hub,4.5,22.18,HEAVY,9,0.74,0.72,12.5,MODERATE,synthetic,True
+724,4,EcoFill CNG Hub,4.5,21.62,HEAVY,20,0.73,0.73,27.4,HIGH,synthetic,True
+725,1,Green Fuel CNG Station,1.2,5.39,LOW,1,0.44,0.62,1.61,LOW,synthetic,True
+726,1,Green Fuel CNG Station,1.2,5.32,LOW,12,0.48,0.65,18.46,MODERATE,synthetic,True
+727,1,Green Fuel CNG Station,1.2,4.91,LOW,17,0.42,0.58,29.31,HIGH,synthetic,True
+728,1,Green Fuel CNG Station,1.2,5.91,MODERATE,1,0.47,0.57,1.75,LOW,synthetic,True
+729,1,Green Fuel CNG Station,1.2,6.04,MODERATE,12,0.5,0.6,20.0,MODERATE,synthetic,True
+730,1,Green Fuel CNG Station,1.2,5.03,MODERATE,14,0.58,0.65,21.54,HIGH,synthetic,True
+731,1,Green Fuel CNG Station,1.2,8.54,HEAVY,3,0.6,0.59,5.08,LOW,synthetic,True
+732,1,Green Fuel CNG Station,1.2,8.96,HEAVY,6,0.61,0.68,8.82,MODERATE,synthetic,True
+733,1,Green Fuel CNG Station,1.2,8.13,HEAVY,17,0.59,0.65,26.15,HIGH,synthetic,True
+734,2,City Gas Point,2.4,8.31,LOW,5,0.48,0.71,7.04,LOW,synthetic,True
+735,2,City Gas Point,2.4,8.39,LOW,12,0.6,0.8,15.0,MODERATE,synthetic,True
+736,2,City Gas Point,2.4,8.37,LOW,14,0.51,0.74,18.92,HIGH,synthetic,True
+737,2,City Gas Point,2.4,10.31,MODERATE,5,0.63,0.81,6.17,LOW,synthetic,True
+738,2,City Gas Point,2.4,9.08,MODERATE,6,0.65,0.8,7.5,MODERATE,synthetic,True
+739,2,City Gas Point,2.4,9.7,MODERATE,17,0.63,0.78,21.79,HIGH,synthetic,True
+740,2,City Gas Point,2.4,13.86,HEAVY,3,0.68,0.78,3.85,LOW,synthetic,True
+741,2,City Gas Point,2.4,14.21,HEAVY,9,0.68,0.77,11.69,MODERATE,synthetic,True
+742,2,City Gas Point,2.4,14.62,HEAVY,20,0.65,0.74,27.03,HIGH,synthetic,True
+743,3,Highway CNG Station,3.1,9.04,LOW,5,0.59,0.98,5.1,LOW,synthetic,True
+744,3,Highway CNG Station,3.1,9.77,LOW,12,0.75,1.18,10.17,MODERATE,synthetic,True
+745,3,Highway CNG Station,3.1,8.83,LOW,20,0.72,1.01,19.8,HIGH,synthetic,True
+746,3,Highway CNG Station,3.1,11.26,MODERATE,5,0.84,0.95,5.26,LOW,synthetic,True
+747,3,Highway CNG Station,3.1,12.07,MODERATE,6,0.87,1.02,5.88,MODERATE,synthetic,True
+748,3,Highway CNG Station,3.1,12.28,MODERATE,20,0.95,1.14,17.54,HIGH,synthetic,True
+749,3,Highway CNG Station,3.1,17.28,HEAVY,3,0.97,1.03,2.91,LOW,synthetic,True
+750,3,Highway CNG Station,3.1,18.0,HEAVY,12,0.93,1.07,11.21,MODERATE,synthetic,True
+751,3,Highway CNG Station,3.1,16.95,HEAVY,17,1.09,1.12,15.18,HIGH,synthetic,True
+752,4,EcoFill CNG Hub,4.5,12.16,LOW,1,0.47,0.71,1.41,LOW,synthetic,True
+753,4,EcoFill CNG Hub,4.5,11.48,LOW,9,0.5,0.68,13.24,MODERATE,synthetic,True
+754,4,EcoFill CNG Hub,4.5,11.81,LOW,20,0.57,0.75,26.67,HIGH,synthetic,True
+755,4,EcoFill CNG Hub,4.5,14.75,MODERATE,3,0.64,0.74,4.05,LOW,synthetic,True
+756,4,EcoFill CNG Hub,4.5,15.11,MODERATE,9,0.56,0.68,13.24,MODERATE,synthetic,True
+757,4,EcoFill CNG Hub,4.5,14.51,MODERATE,20,0.63,0.74,27.03,HIGH,synthetic,True
+758,4,EcoFill CNG Hub,4.5,21.71,HEAVY,5,0.65,0.68,7.35,LOW,synthetic,True
+759,4,EcoFill CNG Hub,4.5,22.26,HEAVY,12,0.64,0.7,17.14,MODERATE,synthetic,True
+760,4,EcoFill CNG Hub,4.5,22.11,HEAVY,20,0.58,0.67,29.85,HIGH,synthetic,True
+761,1,Green Fuel CNG Station,1.2,5.42,LOW,5,0.49,0.66,7.58,LOW,synthetic,True
+762,1,Green Fuel CNG Station,1.2,5.12,LOW,9,0.41,0.64,14.06,MODERATE,synthetic,True
+763,1,Green Fuel CNG Station,1.2,4.39,LOW,17,0.46,0.6,28.33,HIGH,synthetic,True
+764,1,Green Fuel CNG Station,1.2,6.3,MODERATE,3,0.48,0.61,4.92,LOW,synthetic,True
+765,1,Green Fuel CNG Station,1.2,6.33,MODERATE,12,0.54,0.63,19.05,MODERATE,synthetic,True
+766,1,Green Fuel CNG Station,1.2,5.45,MODERATE,20,0.49,0.57,35.09,HIGH,synthetic,True
+767,1,Green Fuel CNG Station,1.2,8.01,HEAVY,1,0.58,0.66,1.52,LOW,synthetic,True
+768,1,Green Fuel CNG Station,1.2,7.97,HEAVY,12,0.7,0.67,17.91,MODERATE,synthetic,True
+769,1,Green Fuel CNG Station,1.2,8.45,HEAVY,20,0.49,0.57,35.09,HIGH,synthetic,True
+770,2,City Gas Point,2.4,7.61,LOW,1,0.45,0.74,1.35,LOW,synthetic,True
+771,2,City Gas Point,2.4,7.39,LOW,6,0.48,0.77,7.79,MODERATE,synthetic,True
+772,2,City Gas Point,2.4,7.77,LOW,17,0.52,0.78,21.79,HIGH,synthetic,True
+773,2,City Gas Point,2.4,10.34,MODERATE,1,0.66,0.76,1.32,LOW,synthetic,True
+774,2,City Gas Point,2.4,10.1,MODERATE,12,0.62,0.72,16.67,MODERATE,synthetic,True
+775,2,City Gas Point,2.4,9.15,MODERATE,14,0.64,0.78,17.95,HIGH,synthetic,True
+776,2,City Gas Point,2.4,13.57,HEAVY,5,0.68,0.77,6.49,LOW,synthetic,True
+777,2,City Gas Point,2.4,14.01,HEAVY,9,0.72,0.75,12.0,MODERATE,synthetic,True
+778,2,City Gas Point,2.4,14.04,HEAVY,20,0.75,0.82,24.39,HIGH,synthetic,True
+779,3,Highway CNG Station,3.1,8.83,LOW,1,0.76,1.0,1.0,LOW,synthetic,True
+780,3,Highway CNG Station,3.1,9.68,LOW,6,0.73,1.17,5.13,MODERATE,synthetic,True
+781,3,Highway CNG Station,3.1,9.36,LOW,14,0.72,0.99,14.14,HIGH,synthetic,True
+782,3,Highway CNG Station,3.1,11.89,MODERATE,5,0.87,1.03,4.85,LOW,synthetic,True
+783,3,Highway CNG Station,3.1,11.07,MODERATE,6,0.99,1.15,5.22,MODERATE,synthetic,True
+784,3,Highway CNG Station,3.1,11.38,MODERATE,14,0.89,1.08,12.96,HIGH,synthetic,True
+785,3,Highway CNG Station,3.1,16.51,HEAVY,5,0.99,1.0,5.0,LOW,synthetic,True
+786,3,Highway CNG Station,3.1,17.43,HEAVY,9,1.13,1.15,7.83,MODERATE,synthetic,True
+787,3,Highway CNG Station,3.1,17.27,HEAVY,20,1.01,0.99,20.2,HIGH,synthetic,True
+788,4,EcoFill CNG Hub,4.5,11.95,LOW,5,0.42,0.67,7.46,LOW,synthetic,True
+789,4,EcoFill CNG Hub,4.5,12.66,LOW,12,0.44,0.68,17.65,MODERATE,synthetic,True
+790,4,EcoFill CNG Hub,4.5,12.02,LOW,17,0.48,0.74,22.97,HIGH,synthetic,True
+791,4,EcoFill CNG Hub,4.5,14.0,MODERATE,1,0.62,0.74,1.35,LOW,synthetic,True
+792,4,EcoFill CNG Hub,4.5,15.0,MODERATE,12,0.52,0.66,18.18,MODERATE,synthetic,True
+793,4,EcoFill CNG Hub,4.5,15.09,MODERATE,14,0.67,0.77,18.18,HIGH,synthetic,True
+794,4,EcoFill CNG Hub,4.5,22.48,HEAVY,1,0.75,0.77,1.3,LOW,synthetic,True
+795,4,EcoFill CNG Hub,4.5,21.26,HEAVY,9,0.58,0.68,13.24,MODERATE,synthetic,True
+796,4,EcoFill CNG Hub,4.5,21.47,HEAVY,14,0.7,0.76,18.42,HIGH,synthetic,True
+797,1,Green Fuel CNG Station,1.2,4.01,LOW,5,0.43,0.57,8.77,LOW,synthetic,True
+798,1,Green Fuel CNG Station,1.2,5.34,LOW,6,0.4,0.64,9.38,MODERATE,synthetic,True
+799,1,Green Fuel CNG Station,1.2,5.22,LOW,20,0.42,0.58,34.48,HIGH,synthetic,True
+800,1,Green Fuel CNG Station,1.2,5.41,MODERATE,1,0.46,0.56,1.79,LOW,synthetic,True
+801,1,Green Fuel CNG Station,1.2,5.97,MODERATE,9,0.54,0.64,14.06,MODERATE,synthetic,True
+802,1,Green Fuel CNG Station,1.2,6.47,MODERATE,14,0.48,0.56,25.0,HIGH,synthetic,True
+803,1,Green Fuel CNG Station,1.2,8.7,HEAVY,1,0.58,0.56,1.79,LOW,synthetic,True
+804,1,Green Fuel CNG Station,1.2,8.04,HEAVY,12,0.59,0.61,19.67,MODERATE,synthetic,True
+805,1,Green Fuel CNG Station,1.2,8.96,HEAVY,14,0.68,0.66,21.21,HIGH,synthetic,True
+806,2,City Gas Point,2.4,7.86,LOW,1,0.52,0.76,1.32,LOW,synthetic,True
+807,2,City Gas Point,2.4,8.35,LOW,6,0.48,0.73,8.22,MODERATE,synthetic,True
+808,2,City Gas Point,2.4,7.98,LOW,20,0.51,0.79,25.32,HIGH,synthetic,True
+809,2,City Gas Point,2.4,10.09,MODERATE,5,0.62,0.78,6.41,LOW,synthetic,True
+810,2,City Gas Point,2.4,9.22,MODERATE,9,0.64,0.74,12.16,MODERATE,synthetic,True
+811,2,City Gas Point,2.4,9.97,MODERATE,20,0.69,0.81,24.69,HIGH,synthetic,True
+812,2,City Gas Point,2.4,14.8,HEAVY,1,0.72,0.76,1.32,LOW,synthetic,True
+813,2,City Gas Point,2.4,14.96,HEAVY,6,0.72,0.79,7.59,MODERATE,synthetic,True
+814,2,City Gas Point,2.4,14.1,HEAVY,14,0.73,0.76,18.42,HIGH,synthetic,True
+815,3,Highway CNG Station,3.1,9.47,LOW,1,0.66,0.97,1.03,LOW,synthetic,True
+816,3,Highway CNG Station,3.1,9.92,LOW,9,0.67,1.08,8.33,MODERATE,synthetic,True
+817,3,Highway CNG Station,3.1,9.62,LOW,14,0.66,0.98,14.29,HIGH,synthetic,True
+818,3,Highway CNG Station,3.1,11.46,MODERATE,1,1.07,1.19,0.84,LOW,synthetic,True
+819,3,Highway CNG Station,3.1,12.43,MODERATE,12,0.96,1.12,10.71,MODERATE,synthetic,True
+820,3,Highway CNG Station,3.1,11.68,MODERATE,17,1.05,1.2,14.17,HIGH,synthetic,True
+821,3,Highway CNG Station,3.1,17.49,HEAVY,5,1.14,1.18,4.24,LOW,synthetic,True
+822,3,Highway CNG Station,3.1,16.83,HEAVY,12,0.95,1.09,11.01,MODERATE,synthetic,True
+823,3,Highway CNG Station,3.1,16.94,HEAVY,17,1.04,1.06,16.04,HIGH,synthetic,True
+824,4,EcoFill CNG Hub,4.5,11.94,LOW,5,0.43,0.7,7.14,LOW,synthetic,True
+825,4,EcoFill CNG Hub,4.5,12.12,LOW,12,0.51,0.75,16.0,MODERATE,synthetic,True
+826,4,EcoFill CNG Hub,4.5,11.89,LOW,14,0.5,0.67,20.9,HIGH,synthetic,True
+827,4,EcoFill CNG Hub,4.5,14.07,MODERATE,1,0.59,0.74,1.35,LOW,synthetic,True
+828,4,EcoFill CNG Hub,4.5,15.34,MODERATE,12,0.65,0.76,15.79,MODERATE,synthetic,True
+829,4,EcoFill CNG Hub,4.5,15.45,MODERATE,17,0.66,0.74,22.97,HIGH,synthetic,True
+830,4,EcoFill CNG Hub,4.5,22.26,HEAVY,1,0.62,0.72,1.39,LOW,synthetic,True
+831,4,EcoFill CNG Hub,4.5,22.04,HEAVY,9,0.77,0.77,11.69,MODERATE,synthetic,True
+832,4,EcoFill CNG Hub,4.5,21.99,HEAVY,14,0.65,0.74,18.92,HIGH,synthetic,True
+833,1,Green Fuel CNG Station,1.2,4.63,LOW,5,0.46,0.66,7.58,LOW,synthetic,True
+834,1,Green Fuel CNG Station,1.2,4.6,LOW,12,0.49,0.67,17.91,MODERATE,synthetic,True
+835,1,Green Fuel CNG Station,1.2,4.21,LOW,17,0.46,0.68,25.0,HIGH,synthetic,True
+836,1,Green Fuel CNG Station,1.2,6.26,MODERATE,5,0.56,0.64,7.81,LOW,synthetic,True
+837,1,Green Fuel CNG Station,1.2,5.95,MODERATE,12,0.57,0.66,18.18,MODERATE,synthetic,True
+838,1,Green Fuel CNG Station,1.2,5.52,MODERATE,14,0.5,0.58,24.14,HIGH,synthetic,True
+839,1,Green Fuel CNG Station,1.2,8.26,HEAVY,5,0.57,0.57,8.77,LOW,synthetic,True
+840,1,Green Fuel CNG Station,1.2,8.03,HEAVY,12,0.63,0.63,19.05,MODERATE,synthetic,True
+841,1,Green Fuel CNG Station,1.2,8.13,HEAVY,17,0.65,0.63,26.98,HIGH,synthetic,True
+842,2,City Gas Point,2.4,8.41,LOW,5,0.56,0.81,6.17,LOW,synthetic,True
+843,2,City Gas Point,2.4,8.21,LOW,12,0.47,0.71,16.9,MODERATE,synthetic,True
+844,2,City Gas Point,2.4,8.23,LOW,14,0.54,0.73,19.18,HIGH,synthetic,True
+845,2,City Gas Point,2.4,9.31,MODERATE,1,0.69,0.8,1.25,LOW,synthetic,True
+846,2,City Gas Point,2.4,9.92,MODERATE,12,0.61,0.7,17.14,MODERATE,synthetic,True
+847,2,City Gas Point,2.4,9.97,MODERATE,20,0.7,0.79,25.32,HIGH,synthetic,True
+848,2,City Gas Point,2.4,14.54,HEAVY,3,0.74,0.73,4.11,LOW,synthetic,True
+849,2,City Gas Point,2.4,14.12,HEAVY,12,0.81,0.78,15.38,MODERATE,synthetic,True
+850,2,City Gas Point,2.4,14.62,HEAVY,20,0.71,0.74,27.03,HIGH,synthetic,True
+851,3,Highway CNG Station,3.1,10.04,LOW,1,0.84,1.14,0.88,LOW,synthetic,True
+852,3,Highway CNG Station,3.1,9.62,LOW,12,0.83,1.16,10.34,MODERATE,synthetic,True
+853,3,Highway CNG Station,3.1,9.24,LOW,20,0.74,1.01,19.8,HIGH,synthetic,True
+854,3,Highway CNG Station,3.1,12.1,MODERATE,1,0.99,1.25,0.8,LOW,synthetic,True
+855,3,Highway CNG Station,3.1,11.4,MODERATE,6,0.88,1.06,5.66,MODERATE,synthetic,True
+856,3,Highway CNG Station,3.1,11.7,MODERATE,14,0.92,1.13,12.39,HIGH,synthetic,True
+857,3,Highway CNG Station,3.1,16.58,HEAVY,1,0.99,0.96,1.04,LOW,synthetic,True
+858,3,Highway CNG Station,3.1,17.68,HEAVY,12,1.11,1.13,10.62,MODERATE,synthetic,True
+859,3,Highway CNG Station,3.1,17.29,HEAVY,20,1.07,1.06,18.87,HIGH,synthetic,True
+860,4,EcoFill CNG Hub,4.5,11.82,LOW,1,0.53,0.72,1.39,LOW,synthetic,True
+861,4,EcoFill CNG Hub,4.5,12.2,LOW,12,0.46,0.7,17.14,MODERATE,synthetic,True
+862,4,EcoFill CNG Hub,4.5,12.0,LOW,17,0.45,0.7,24.29,HIGH,synthetic,True
+863,4,EcoFill CNG Hub,4.5,14.17,MODERATE,5,0.68,0.76,6.58,LOW,synthetic,True
+864,4,EcoFill CNG Hub,4.5,15.38,MODERATE,9,0.63,0.71,12.68,MODERATE,synthetic,True
+865,4,EcoFill CNG Hub,4.5,14.57,MODERATE,14,0.66,0.77,18.18,HIGH,synthetic,True
+866,4,EcoFill CNG Hub,4.5,21.04,HEAVY,1,0.67,0.7,1.43,LOW,synthetic,True
+867,4,EcoFill CNG Hub,4.5,21.76,HEAVY,12,0.7,0.76,15.79,MODERATE,synthetic,True
+868,4,EcoFill CNG Hub,4.5,21.48,HEAVY,17,0.68,0.66,25.76,HIGH,synthetic,True
+869,1,Green Fuel CNG Station,1.2,4.8,LOW,1,0.42,0.67,1.49,LOW,synthetic,True
+870,1,Green Fuel CNG Station,1.2,5.3,LOW,12,0.4,0.56,21.43,MODERATE,synthetic,True
+871,1,Green Fuel CNG Station,1.2,4.97,LOW,17,0.42,0.66,25.76,HIGH,synthetic,True
+872,1,Green Fuel CNG Station,1.2,6.08,MODERATE,1,0.52,0.65,1.54,LOW,synthetic,True
+873,1,Green Fuel CNG Station,1.2,5.38,MODERATE,6,0.44,0.56,10.71,MODERATE,synthetic,True
+874,1,Green Fuel CNG Station,1.2,5.61,MODERATE,14,0.5,0.62,22.58,HIGH,synthetic,True
+875,1,Green Fuel CNG Station,1.2,8.08,HEAVY,3,0.59,0.63,4.76,LOW,synthetic,True
+876,1,Green Fuel CNG Station,1.2,7.59,HEAVY,6,0.61,0.62,9.68,MODERATE,synthetic,True
+877,1,Green Fuel CNG Station,1.2,8.04,HEAVY,20,0.62,0.63,31.75,HIGH,synthetic,True
+878,2,City Gas Point,2.4,8.11,LOW,5,0.53,0.71,7.04,LOW,synthetic,True
+879,2,City Gas Point,2.4,8.43,LOW,9,0.54,0.79,11.39,MODERATE,synthetic,True
+880,2,City Gas Point,2.4,8.32,LOW,14,0.53,0.76,18.42,HIGH,synthetic,True
+881,2,City Gas Point,2.4,10.02,MODERATE,5,0.63,0.74,6.76,LOW,synthetic,True
+882,2,City Gas Point,2.4,9.83,MODERATE,12,0.7,0.78,15.38,MODERATE,synthetic,True
+883,2,City Gas Point,2.4,9.89,MODERATE,20,0.57,0.72,27.78,HIGH,synthetic,True
+884,2,City Gas Point,2.4,14.62,HEAVY,5,0.67,0.77,6.49,LOW,synthetic,True
+885,2,City Gas Point,2.4,14.78,HEAVY,12,0.69,0.74,16.22,MODERATE,synthetic,True
+886,2,City Gas Point,2.4,13.88,HEAVY,14,0.64,0.72,19.44,HIGH,synthetic,True
+887,3,Highway CNG Station,3.1,10.08,LOW,1,0.74,1.0,1.0,LOW,synthetic,True
+888,3,Highway CNG Station,3.1,9.81,LOW,12,0.76,1.09,11.01,MODERATE,synthetic,True
+889,3,Highway CNG Station,3.1,10.23,LOW,17,0.72,0.98,17.35,HIGH,synthetic,True
+890,3,Highway CNG Station,3.1,11.43,MODERATE,3,0.85,0.99,3.03,LOW,synthetic,True
+891,3,Highway CNG Station,3.1,11.49,MODERATE,6,1.0,1.22,4.92,MODERATE,synthetic,True
+892,3,Highway CNG Station,3.1,11.85,MODERATE,20,0.88,1.04,19.23,HIGH,synthetic,True
+893,3,Highway CNG Station,3.1,16.87,HEAVY,3,1.1,1.24,2.42,LOW,synthetic,True
+894,3,Highway CNG Station,3.1,17.76,HEAVY,6,1.13,1.16,5.17,MODERATE,synthetic,True
+895,3,Highway CNG Station,3.1,17.19,HEAVY,14,1.05,1.15,12.17,HIGH,synthetic,True
+896,4,EcoFill CNG Hub,4.5,11.46,LOW,3,0.52,0.75,4.0,LOW,synthetic,True
+897,4,EcoFill CNG Hub,4.5,12.54,LOW,12,0.43,0.66,18.18,MODERATE,synthetic,True
+898,4,EcoFill CNG Hub,4.5,12.29,LOW,14,0.52,0.68,20.59,HIGH,synthetic,True
+899,4,EcoFill CNG Hub,4.5,14.87,MODERATE,1,0.65,0.76,1.32,LOW,synthetic,True
+900,4,EcoFill CNG Hub,4.5,14.83,MODERATE,9,0.6,0.75,12.0,MODERATE,synthetic,True
+901,4,EcoFill CNG Hub,4.5,15.16,MODERATE,20,0.65,0.77,25.97,HIGH,synthetic,True
+902,4,EcoFill CNG Hub,4.5,22.1,HEAVY,3,0.72,0.7,4.29,LOW,synthetic,True
+903,4,EcoFill CNG Hub,4.5,21.6,HEAVY,9,0.64,0.67,13.43,MODERATE,synthetic,True
+904,4,EcoFill CNG Hub,4.5,22.47,HEAVY,20,0.58,0.65,30.77,HIGH,synthetic,True
+905,1,Green Fuel CNG Station,1.2,4.24,LOW,5,0.39,0.57,8.77,LOW,synthetic,True
+906,1,Green Fuel CNG Station,1.2,5.1,LOW,12,0.48,0.67,17.91,MODERATE,synthetic,True
+907,1,Green Fuel CNG Station,1.2,4.35,LOW,17,0.41,0.67,25.37,HIGH,synthetic,True
+908,1,Green Fuel CNG Station,1.2,5.78,MODERATE,3,0.47,0.6,5.0,LOW,synthetic,True
+909,1,Green Fuel CNG Station,1.2,5.06,MODERATE,9,0.53,0.6,15.0,MODERATE,synthetic,True
+910,1,Green Fuel CNG Station,1.2,5.95,MODERATE,20,0.51,0.59,33.9,HIGH,synthetic,True
+911,1,Green Fuel CNG Station,1.2,8.36,HEAVY,3,0.6,0.66,4.55,LOW,synthetic,True
+912,1,Green Fuel CNG Station,1.2,8.85,HEAVY,9,0.58,0.63,14.29,MODERATE,synthetic,True
+913,1,Green Fuel CNG Station,1.2,8.27,HEAVY,14,0.57,0.62,22.58,HIGH,synthetic,True
+914,2,City Gas Point,2.4,8.53,LOW,3,0.53,0.8,3.75,LOW,synthetic,True
+915,2,City Gas Point,2.4,7.54,LOW,6,0.48,0.76,7.89,MODERATE,synthetic,True
+916,2,City Gas Point,2.4,7.44,LOW,20,0.5,0.78,25.64,HIGH,synthetic,True
+917,2,City Gas Point,2.4,9.62,MODERATE,5,0.63,0.79,6.33,LOW,synthetic,True
+918,2,City Gas Point,2.4,9.72,MODERATE,9,0.66,0.79,11.39,MODERATE,synthetic,True
+919,2,City Gas Point,2.4,9.37,MODERATE,20,0.63,0.72,27.78,HIGH,synthetic,True
+920,2,City Gas Point,2.4,14.27,HEAVY,1,0.68,0.77,1.3,LOW,synthetic,True
+921,2,City Gas Point,2.4,14.27,HEAVY,12,0.64,0.72,16.67,MODERATE,synthetic,True
+922,2,City Gas Point,2.4,14.82,HEAVY,17,0.74,0.77,22.08,HIGH,synthetic,True
+923,3,Highway CNG Station,3.1,9.12,LOW,5,0.75,1.15,4.35,LOW,synthetic,True
+924,3,Highway CNG Station,3.1,9.13,LOW,12,0.95,1.25,9.6,MODERATE,synthetic,True
+925,3,Highway CNG Station,3.1,9.73,LOW,17,0.84,1.13,15.04,HIGH,synthetic,True
+926,3,Highway CNG Station,3.1,12.38,MODERATE,5,0.89,1.03,4.85,LOW,synthetic,True
+927,3,Highway CNG Station,3.1,11.2,MODERATE,12,0.91,1.13,10.62,MODERATE,synthetic,True
+928,3,Highway CNG Station,3.1,12.03,MODERATE,14,0.89,1.01,13.86,HIGH,synthetic,True
+929,3,Highway CNG Station,3.1,17.4,HEAVY,1,1.0,1.13,0.88,LOW,synthetic,True
+930,3,Highway CNG Station,3.1,17.49,HEAVY,12,0.96,1.1,10.91,MODERATE,synthetic,True
+931,3,Highway CNG Station,3.1,17.52,HEAVY,20,0.94,1.11,18.02,HIGH,synthetic,True
+932,4,EcoFill CNG Hub,4.5,12.25,LOW,3,0.48,0.72,4.17,LOW,synthetic,True
+933,4,EcoFill CNG Hub,4.5,11.73,LOW,9,0.51,0.68,13.24,MODERATE,synthetic,True
+934,4,EcoFill CNG Hub,4.5,11.35,LOW,20,0.58,0.77,25.97,HIGH,synthetic,True
+935,4,EcoFill CNG Hub,4.5,14.13,MODERATE,1,0.59,0.68,1.47,LOW,synthetic,True
+936,4,EcoFill CNG Hub,4.5,14.01,MODERATE,12,0.63,0.76,15.79,MODERATE,synthetic,True
+937,4,EcoFill CNG Hub,4.5,14.78,MODERATE,20,0.64,0.75,26.67,HIGH,synthetic,True
+938,4,EcoFill CNG Hub,4.5,21.61,HEAVY,3,0.73,0.74,4.05,LOW,synthetic,True
+939,4,EcoFill CNG Hub,4.5,21.39,HEAVY,6,0.66,0.67,8.96,MODERATE,synthetic,True
+940,4,EcoFill CNG Hub,4.5,22.49,HEAVY,20,0.66,0.71,28.17,HIGH,synthetic,True
+941,1,Green Fuel CNG Station,1.2,4.72,LOW,3,0.44,0.65,4.62,LOW,synthetic,True
+942,1,Green Fuel CNG Station,1.2,4.87,LOW,9,0.43,0.62,14.52,MODERATE,synthetic,True
+943,1,Green Fuel CNG Station,1.2,5.12,LOW,20,0.37,0.6,33.33,HIGH,synthetic,True
+944,1,Green Fuel CNG Station,1.2,5.32,MODERATE,3,0.58,0.65,4.62,LOW,synthetic,True
+945,1,Green Fuel CNG Station,1.2,6.05,MODERATE,9,0.57,0.65,13.85,MODERATE,synthetic,True
+946,1,Green Fuel CNG Station,1.2,5.01,MODERATE,20,0.46,0.56,35.71,HIGH,synthetic,True
+947,1,Green Fuel CNG Station,1.2,8.15,HEAVY,1,0.62,0.66,1.52,LOW,synthetic,True
+948,1,Green Fuel CNG Station,1.2,7.56,HEAVY,6,0.54,0.58,10.34,MODERATE,synthetic,True
+949,1,Green Fuel CNG Station,1.2,8.28,HEAVY,17,0.62,0.67,25.37,HIGH,synthetic,True
+950,2,City Gas Point,2.4,8.16,LOW,5,0.5,0.82,6.1,LOW,synthetic,True
+951,2,City Gas Point,2.4,7.63,LOW,9,0.53,0.7,12.86,MODERATE,synthetic,True
+952,2,City Gas Point,2.4,8.12,LOW,14,0.55,0.79,17.72,HIGH,synthetic,True
+953,2,City Gas Point,2.4,10.46,MODERATE,5,0.57,0.7,7.14,LOW,synthetic,True
+954,2,City Gas Point,2.4,10.0,MODERATE,6,0.72,0.82,7.32,MODERATE,synthetic,True
+955,2,City Gas Point,2.4,10.06,MODERATE,17,0.65,0.77,22.08,HIGH,synthetic,True
+956,2,City Gas Point,2.4,14.87,HEAVY,1,0.77,0.77,1.3,LOW,synthetic,True
+957,2,City Gas Point,2.4,14.41,HEAVY,9,0.75,0.74,12.16,MODERATE,synthetic,True
+958,2,City Gas Point,2.4,13.89,HEAVY,14,0.7,0.75,18.67,HIGH,synthetic,True
+959,3,Highway CNG Station,3.1,9.24,LOW,3,0.77,1.1,2.73,LOW,synthetic,True
+960,3,Highway CNG Station,3.1,10.02,LOW,6,0.92,1.19,5.04,MODERATE,synthetic,True
+961,3,Highway CNG Station,3.1,9.64,LOW,20,0.7,1.03,19.42,HIGH,synthetic,True
+962,3,Highway CNG Station,3.1,12.02,MODERATE,1,1.06,1.18,0.85,LOW,synthetic,True
+963,3,Highway CNG Station,3.1,11.1,MODERATE,12,1.01,1.21,9.92,MODERATE,synthetic,True
+964,3,Highway CNG Station,3.1,11.34,MODERATE,20,0.96,1.19,16.81,HIGH,synthetic,True
+965,3,Highway CNG Station,3.1,16.51,HEAVY,3,0.99,1.07,2.8,LOW,synthetic,True
+966,3,Highway CNG Station,3.1,17.62,HEAVY,9,0.89,1.02,8.82,MODERATE,synthetic,True
+967,3,Highway CNG Station,3.1,16.97,HEAVY,17,1.01,0.97,17.53,HIGH,synthetic,True
+968,4,EcoFill CNG Hub,4.5,11.95,LOW,1,0.5,0.77,1.3,LOW,synthetic,True
+969,4,EcoFill CNG Hub,4.5,11.51,LOW,6,0.44,0.68,8.82,MODERATE,synthetic,True
+970,4,EcoFill CNG Hub,4.5,11.43,LOW,14,0.57,0.76,18.42,HIGH,synthetic,True
+971,4,EcoFill CNG Hub,4.5,14.74,MODERATE,1,0.53,0.67,1.49,LOW,synthetic,True
+972,4,EcoFill CNG Hub,4.5,15.27,MODERATE,6,0.63,0.75,8.0,MODERATE,synthetic,True
+973,4,EcoFill CNG Hub,4.5,15.3,MODERATE,17,0.61,0.73,23.29,HIGH,synthetic,True
+974,4,EcoFill CNG Hub,4.5,21.42,HEAVY,3,0.67,0.67,4.48,LOW,synthetic,True
+975,4,EcoFill CNG Hub,4.5,22.2,HEAVY,6,0.66,0.75,8.0,MODERATE,synthetic,True
+976,4,EcoFill CNG Hub,4.5,21.59,HEAVY,17,0.66,0.77,22.08,HIGH,synthetic,True
+977,1,Green Fuel CNG Station,1.2,5.05,LOW,5,0.44,0.65,7.69,LOW,synthetic,True
+978,1,Green Fuel CNG Station,1.2,4.57,LOW,9,0.35,0.59,15.25,MODERATE,synthetic,True
+979,1,Green Fuel CNG Station,1.2,4.28,LOW,14,0.42,0.59,23.73,HIGH,synthetic,True
+980,1,Green Fuel CNG Station,1.2,5.51,MODERATE,3,0.49,0.58,5.17,LOW,synthetic,True
+981,1,Green Fuel CNG Station,1.2,6.13,MODERATE,6,0.49,0.61,9.84,MODERATE,synthetic,True
+982,1,Green Fuel CNG Station,1.2,5.86,MODERATE,17,0.54,0.66,25.76,HIGH,synthetic,True
+983,1,Green Fuel CNG Station,1.2,7.9,HEAVY,5,0.65,0.64,7.81,LOW,synthetic,True
+984,1,Green Fuel CNG Station,1.2,7.72,HEAVY,6,0.63,0.62,9.68,MODERATE,synthetic,True
+985,1,Green Fuel CNG Station,1.2,8.13,HEAVY,20,0.58,0.57,35.09,HIGH,synthetic,True
+986,2,City Gas Point,2.4,8.0,LOW,1,0.62,0.82,1.22,LOW,synthetic,True
+987,2,City Gas Point,2.4,8.49,LOW,9,0.52,0.79,11.39,MODERATE,synthetic,True
+988,2,City Gas Point,2.4,7.52,LOW,14,0.54,0.75,18.67,HIGH,synthetic,True
+989,2,City Gas Point,2.4,10.12,MODERATE,3,0.65,0.76,3.95,LOW,synthetic,True
+990,2,City Gas Point,2.4,9.39,MODERATE,9,0.63,0.74,12.16,MODERATE,synthetic,True
+991,2,City Gas Point,2.4,10.44,MODERATE,14,0.62,0.75,18.67,HIGH,synthetic,True
+992,2,City Gas Point,2.4,13.76,HEAVY,1,0.75,0.77,1.3,LOW,synthetic,True
+993,2,City Gas Point,2.4,14.66,HEAVY,9,0.73,0.74,12.16,MODERATE,synthetic,True
+994,2,City Gas Point,2.4,14.2,HEAVY,17,0.75,0.81,20.99,HIGH,synthetic,True
+995,3,Highway CNG Station,3.1,9.43,LOW,1,0.87,1.21,0.83,LOW,synthetic,True
+996,3,Highway CNG Station,3.1,8.92,LOW,12,0.84,1.12,10.71,MODERATE,synthetic,True
+997,3,Highway CNG Station,3.1,9.87,LOW,17,0.67,1.02,16.67,HIGH,synthetic,True
+998,3,Highway CNG Station,3.1,12.17,MODERATE,5,0.93,1.14,4.39,LOW,synthetic,True
+999,3,Highway CNG Station,3.1,11.62,MODERATE,9,0.99,1.17,7.69,MODERATE,synthetic,True
+1000,3,Highway CNG Station,3.1,11.99,MODERATE,14,0.96,1.21,11.57,HIGH,synthetic,True

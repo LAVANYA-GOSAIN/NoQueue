@@ -1,0 +1,225 @@
+{
+    "model_type": "contextual_bandit",
+    "gamma": 0.0,
+    "alpha": 0.1,
+    "total_possible_contexts": 36,
+    "learned_contexts_count": 36,
+    "records": [
+        {
+            "context": "S1_HEAVY_HIGH",
+            "action": 1,
+            "q_value": -36.8036,
+            "visits": 5
+        },
+        {
+            "context": "S1_HEAVY_LOW",
+            "action": 1,
+            "q_value": -11.8004,
+            "visits": 129
+        },
+        {
+            "context": "S1_HEAVY_MODERATE",
+            "action": 1,
+            "q_value": -22.2403,
+            "visits": 38
+        },
+        {
+            "context": "S1_LOW_HIGH",
+            "action": 1,
+            "q_value": -37.9173,
+            "visits": 3
+        },
+        {
+            "context": "S1_LOW_LOW",
+            "action": 1,
+            "q_value": -8.8471,
+            "visits": 173
+        },
+        {
+            "context": "S1_LOW_MODERATE",
+            "action": 1,
+            "q_value": -21.6348,
+            "visits": 41
+        },
+        {
+            "context": "S1_MODERATE_HIGH",
+            "action": 1,
+            "q_value": -28.3474,
+            "visits": 5
+        },
+        {
+            "context": "S1_MODERATE_LOW",
+            "action": 1,
+            "q_value": -8.6107,
+            "visits": 157
+        },
+        {
+            "context": "S1_MODERATE_MODERATE",
+            "action": 1,
+            "q_value": -18.6303,
+            "visits": 53
+        },
+        {
+            "context": "S2_HEAVY_HIGH",
+            "action": 2,
+            "q_value": -36.102,
+            "visits": 2
+        },
+        {
+            "context": "S2_HEAVY_LOW",
+            "action": 2,
+            "q_value": -17.6198,
+            "visits": 64
+        },
+        {
+            "context": "S2_HEAVY_MODERATE",
+            "action": 2,
+            "q_value": -28.4302,
+            "visits": 5
+        },
+        {
+            "context": "S2_LOW_HIGH",
+            "action": 2,
+            "q_value": -27.0595,
+            "visits": 9
+        },
+        {
+            "context": "S2_LOW_LOW",
+            "action": 2,
+            "q_value": -11.7868,
+            "visits": 88
+        },
+        {
+            "context": "S2_LOW_MODERATE",
+            "action": 2,
+            "q_value": -19.8236,
+            "visits": 42
+        },
+        {
+            "context": "S2_MODERATE_HIGH",
+            "action": 2,
+            "q_value": -30.3877,
+            "visits": 6
+        },
+        {
+            "context": "S2_MODERATE_LOW",
+            "action": 2,
+            "q_value": -14.0187,
+            "visits": 78
+        },
+        {
+            "context": "S2_MODERATE_MODERATE",
+            "action": 2,
+            "q_value": -20.5261,
+            "visits": 35
+        },
+        {
+            "context": "S3_HEAVY_HIGH",
+            "action": 3,
+            "q_value": -30.8909,
+            "visits": 5
+        },
+        {
+            "context": "S3_HEAVY_LOW",
+            "action": 3,
+            "q_value": -19.4663,
+            "visits": 45
+        },
+        {
+            "context": "S3_HEAVY_MODERATE",
+            "action": 3,
+            "q_value": -25.3532,
+            "visits": 17
+        },
+        {
+            "context": "S3_LOW_HIGH",
+            "action": 3,
+            "q_value": -24.8274,
+            "visits": 19
+        },
+        {
+            "context": "S3_LOW_LOW",
+            "action": 3,
+            "q_value": -11.0521,
+            "visits": 116
+        },
+        {
+            "context": "S3_LOW_MODERATE",
+            "action": 3,
+            "q_value": -17.4396,
+            "visits": 45
+        },
+        {
+            "context": "S3_MODERATE_HIGH",
+            "action": 3,
+            "q_value": -25.1267,
+            "visits": 10
+        },
+        {
+            "context": "S3_MODERATE_LOW",
+            "action": 3,
+            "q_value": -14.0532,
+            "visits": 112
+        },
+        {
+            "context": "S3_MODERATE_MODERATE",
+            "action": 3,
+            "q_value": -20.411,
+            "visits": 39
+        },
+        {
+            "context": "S4_HEAVY_HIGH",
+            "action": 4,
+            "q_value": -49.419,
+            "visits": 3
+        },
+        {
+            "context": "S4_HEAVY_LOW",
+            "action": 4,
+            "q_value": -23.4796,
+            "visits": 8
+        },
+        {
+            "context": "S4_HEAVY_MODERATE",
+            "action": 4,
+            "q_value": -30.357,
+            "visits": 2
+        },
+        {
+            "context": "S4_LOW_HIGH",
+            "action": 4,
+            "q_value": -36.5962,
+            "visits": 6
+        },
+        {
+            "context": "S4_LOW_LOW",
+            "action": 4,
+            "q_value": -14.9925,
+            "visits": 67
+        },
+        {
+            "context": "S4_LOW_MODERATE",
+            "action": 4,
+            "q_value": -21.1978,
+            "visits": 18
+        },
+        {
+            "context": "S4_MODERATE_HIGH",
+            "action": 4,
+            "q_value": -32.18,
+            "visits": 1
+        },
+        {
+            "context": "S4_MODERATE_LOW",
+            "action": 4,
+            "q_value": -18.0661,
+            "visits": 44
+        },
+        {
+            "context": "S4_MODERATE_MODERATE",
+            "action": 4,
+            "q_value": -25.7415,
+            "visits": 10
+        }
+    ]
+}

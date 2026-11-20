@@ -1,0 +1,67 @@
+{
+  "dataset_name": "NoQueue Multi-Dispenser Synthetic Dataset (Track A)",
+  "version": "1.0.0",
+  "creation_timestamp_iso": "2026-11-15T16:42:24.974073+00:00",
+  "master_seed": 42,
+  "duration_minutes_per_station": 240,
+  "total_stations": 4,
+  "total_snapshots": 960,
+  "total_vehicle_events": 501,
+  "provenance": "Generated via MultiDispenserQueueSimulator (Join-Shortest-Queue, independent physical dispenser channels, 2025 CNG Arena case-study distributions)",
+  "data_type": "SYNTHETIC",
+  "real_world_validation_status": "NOT AVAILABLE \u2014 INDEPENDENT OBSERVATIONS REQUIRED",
+  "station_summaries": [
+    {
+      "station_id": 1,
+      "station_name": "Green Fuel CNG Station",
+      "num_dispensers": 2,
+      "demand_profile": "LOW",
+      "arrival_rate": 0.5,
+      "random_seed": 671487,
+      "snapshot_count": 240,
+      "total_vehicles_arrived": 65,
+      "completed_vehicles": 64,
+      "in_service_vehicles": 1,
+      "waiting_vehicles": 0
+    },
+    {
+      "station_id": 2,
+      "station_name": "City Gas Point",
+      "num_dispensers": 2,
+      "demand_profile": "MODERATE",
+      "arrival_rate": 0.65,
+      "random_seed": 117739,
+      "snapshot_count": 240,
+      "total_vehicles_arrived": 115,
+      "completed_vehicles": 92,
+      "in_service_vehicles": 2,
+      "waiting_vehicles": 21
+    },
+    {
+      "station_id": 3,
+      "station_name": "Highway CNG Station",
+      "num_dispensers": 4,
+      "demand_profile": "HEAVY",
+      "arrival_rate": 1.1,
+      "random_seed": 27225,
+      "snapshot_count": 240,
+      "total_vehicles_arrived": 209,
+      "completed_vehicles": 190,
+      "in_service_vehicles": 4,
+      "waiting_vehicles": 15
+    },
+    {
+      "station_id": 4,
+      "station_name": "EcoFill CNG Hub",
+      "num_dispensers": 2,
+      "demand_profile": "MODERATE",
+      "arrival_rate": 0.7,
+      "random_seed": 778572,
+      "snapshot_count": 240,
+      "total_vehicles_arrived": 112,
+      "completed_vehicles": 93,
+      "in_service_vehicles": 2,
+      "waiting_vehicles": 17
+    }
+  ]
+}
